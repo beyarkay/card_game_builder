@@ -1,0 +1,138 @@
+name: Chameleon
+version: 0.1.0
+instructions: 
+num_players: 3 to 10
+duration: Multiple rounds of ~15 minutes
+authors: Big Potato Games
+website: https://bigpotato.com/products/the-chameleon
+expansions:
+  - phobias:
+    name: Phobias
+    cards:
+      - Birds
+      - Children
+      - Clowns
+      - Dogs
+      - Germs
+      - Ghosts
+      - Insects
+      - Monsters
+      - Needles
+      - Planes
+      - Rats
+      - Roller Coasters
+      - Shadows
+      - Snakes
+      - Spiders
+      - Toilets
+  - disney_movies:
+    name: Disney Movies
+    cards:
+      - Aladdin
+      - Beauty and the Beast
+      - Big Hero 6
+      - Cars
+      - Finding Nemo
+      - Moana
+      - Monster's Inc.
+      - Mulan
+      - Ratatouille
+      - The Increadibles
+      - The Lion King
+      - The Little Mermaid
+      - Toy Story
+      - Up
+      - WALL-E
+      - Zootopia
+  - food:
+    name: Food
+    cards:
+      - Beef
+      - Bread
+      - Cake
+      - Cheese
+      - Chicken
+      - Chocolate
+      - Eggs
+      - Fish
+      - Fruit
+      - Ice Cream
+      - Pasta
+      - Pizza
+      - Potatoes
+      - Salad
+      - Sausage
+      - Soup
+  - jobs:
+    name: Jobs
+    cards:
+      - Accountant
+      - Angler
+      - Architect
+      - Butcher
+      - Carpenter
+      - Chef
+      - Lawyer
+      - Lighthouse Keeper
+      - Lorry Driver
+      - Lumberjack
+      - Nurse
+      - Police Officer
+      - Secretary
+      - Security Guard
+      - Teacher
+      - Waitron
+  - uni_majors:
+    name: University Majors 
+    cards:
+      - Accounting
+      - Archaeology
+      - Architecture
+      - Astronomy
+      - Chemical Engineering
+      - Computer Science
+      - Dance
+      - Economics
+      - Electrical Engineering
+      - Film and Media
+      - Fine Art
+      - Gender Studies
+      - Geology
+      - History
+      - Industrial Engineering
+      - Information Systems
+      - Law
+      - Linguistics
+      - Literature
+      - Mathematics
+      - Mechanical Engineering
+      - Mechatronics
+      - Music
+      - Philosophy
+      - Phsychology
+      - Physics
+      - Religious Studies
+      - Statistics
+      - Teaching
+      - Theatre
+  - conspiracies:
+    name: Conspiracies
+    cards:
+      - 9/11
+      - Flat Earth
+      - Vaccines
+      - Lizard People
+      - The Royal Family
+      - Crop Circles
+      - The Metric System
+      - Birds aren't real
+      - The Illuminati
+      - The Moon Landing
+      - Bermuda Triangle
+      - Hollow Earth
+      - Bigfoot
+      - The Loch Ness Monster
+      - Chemtrails
+      - MK-ULTRA
+      - Shadow Government
+
