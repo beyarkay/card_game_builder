@@ -1,0 +1,9 @@
+# Each round, there's one fake artist and everyone else is a real artist.
+# Everyone draws the same card describing something (like a house, cart,
+# computer, etc) except the fake artist's card will be blank (nobody else 
+# knows who the fake artist is). The players then take it in turn drawing
+# the object on the card line by line. If the real artists can guess who 
+# the fake artist is, then they win. But if the fake artist can guess
+# what the object they're all drawing is before they're found out, then the
+# fake artist wins
+

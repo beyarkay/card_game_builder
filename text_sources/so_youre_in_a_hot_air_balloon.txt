@@ -1,0 +1,66 @@
+# The Idea:
+# Once per round, one player draws disaster and reads it out. The rest of the players
+# then need to use some of their items to get themselves out of the disaster. Whoever read 
+# out the disaster chooses the winner
+
+[disasters]
+You're in a hot air balloon and floating off into space.
+You're locked a tiny bathroom and the toilet is starting to overflow.
+You're on a really boring first date.
+You're on a first date and want to take them home.
+You need to break up with them but it's Valintine's day.
+The love of your life broke up with you on Valintine's day and you need to get revenge.
+You just farted in the elevator and you think your boss heard you.
+Dobby the house elf has asked you to set him free, except you're in the middle of the woods and buck naked.
+Spongebob Squarepants has asked you to show him how to make fire. You're both underwater.
+You're aboard the Titanic as it's sinking into the freezing water.
+
+[items]
+
+A Polaroid Camera
+Homemade ecstacy
+A suspicious white powder
+An intimidating boarder control agent
+A water pistol
+A library card
+Two arguing tweens
+Your ex
+A strong umbrella
+A winning lottery ticket
+Far too many pufferfish
+A creepy doll
+A lucky swinging-arm plastic golden cat
+A moldy sleeping bag
+A nightstand full of condoms
+One expired condom
+A swiss passport
+Donald Trump's final brain cell
+An airplane ticket
+A magic growing bean
+A pirate's parrot
+An angry goose
+A cloud
+A grand piano suspended high in the air
+Dwight Schrute, Assistant to the Regional Manager at Dunder Mifflin Paper Company
+An increadibly attractive plumber
+A very unattractive fireman
+An empty astronaut suit
+A (possibly ripped) parachute
+A blowtorch
+A sturdy red flag
+A deprived coffee addict
+Five knights in shining armour
+Five princesses who don't need to be saved
+A dragon who just wants to be loved
+An asexual streetlamp who doesn't like being turned on
+A computer nerd
+A hacker
+The president of the United States of America
+A bald eagle
+Inspiring patriotism
+Chlamydia
+Elon Musk's rocket ship
+
+
+
+
