@@ -52,16 +52,37 @@ The Rust code expects to be given a `.yaml` file, and will write one or more
 must include _everything_ about that game, including:
 
 - The name of the game and version number (following [SemVer](https://semver.org/))
-- A list of _categories_, where each category can be treated differently and
-  cards within a category are printed sequentially
-- A list of cards (one list per category), where each card defines the text
-  that will be on that card.
+
+```yaml
+name: Cards Against Humanities
+version: 0.1.0
+...
+```
+
+- A list of at least one `expansion`, where each `expansion` is given a name
+  and then an arbitrary number of other categories:
+
+```yaml
+...
+expansions:
+  - default:
+    name: The Default Expansion
+    white_cards:
+      - value 1
+      - value 2
+    black_cards:
+      - value 1
+      - value 2
+```
+
+- Each of these keys (`white_cards`, `black_cards`) will be printed off
+
 
 For example `cards_against_humanities.yaml`: 
 ```yaml
 name: Cards Against Humanities
 version: 0.1.0
-expansions:                     # Expansions are explained below
+expansions:                     # Expansions are explained in more detail below
   - default:                    # ^^^
     name: The Default Expansion # ^^^
     white_cards:                # Category number 1

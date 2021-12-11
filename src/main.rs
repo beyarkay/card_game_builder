@@ -1,23 +1,32 @@
-use std::fs;
+use serde::{Deserialize, Serialize};
+use serde_yaml::{self};
 
 fn main() {
-    let filename = "text_sources/so_youre_in_a_hot_air_balloon.txt";
-    let contents = fs::read_to_string(filename)
-        .expect("Couldn't read file.");
+    let f = std::fs::File::open("games/chameleon.yaml").expect("Could not open file.");
+    let chameleon_game: Game = serde_yaml::from_reader(f).expect("Could not read values.");
+    println!("{:#?}", chameleon_game);
+}
 
-    for line in contents.split("\n") {
-        if line.chars().count() ==  0 {
-            continue;
-        }
-        if line.starts_with('#') {
-            println!("Excluding Comment: {}", line)
-        } else if line.starts_with('[') {
-            let until = line.chars().count();
-            let (tag, _bracket) = line.trim().split_at(1).1.split_at(until - 2);
-            println!("Tag Starts: {}", tag)
-        } else {
-            //println!("- {}", line);
-        }
-    }
+#[derive(Debug, Serialize, Deserialize)]
+struct Game {
+    name: String,
+    version: String,
+    instructions: String,
+    num_players: String,
+    duration: String,
+    authors: String,
+    website: String,
+    expansions: Vec<Expansion>,
+}
 
+#[derive(Debug, Serialize, Deserialize)]
+struct Expansion {
+    name: String,
+    categories: Vec<Category>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+struct Category {
+    name: String,
+    items: Vec<String>,
 }
