@@ -4,7 +4,7 @@
 
 Lots of card games boil down to basically just a load of creative prompts on
 cardboard which you. Think 
-[Cards Against Humanities](https://www.cardsagainsthumanity.com/), 
+[Cards Against Humanities](https://www.cardsagainsthumanity.com/#downloads), 
 [Chameleon](https://bigpotato.com/products/the-chameleon), 
 [Red Flags](https://www.timelessboardgames.co.za/boardgames/red-flags-main-game/1985), etc.
 
@@ -17,7 +17,8 @@ with.
 
 - Open source
 - Multiple card games are already in the repository
-- Easy (and flexible) interface via YAML markup files
+- Easy (and flexible) interface via standard 
+  [YAML](https://sweetohm.net/article/introduction-yaml.en.html) markup files
 
 ## Installation
 
@@ -50,7 +51,7 @@ The Rust code expects to be given a `.yaml` file, and will write one or more
 `.pdf` files. This `.yaml` file is what you'll write to describe your game, and
 must include _everything_ about that game, including:
 
-- The name of the game and version number
+- The name of the game and version number (following [SemVer](https://semver.org/))
 - A list of _categories_, where each category can be treated differently and
   cards within a category are printed sequentially
 - A list of cards (one list per category), where each card defines the text
@@ -59,43 +60,94 @@ must include _everything_ about that game, including:
 For example `cards_against_humanities.yaml`: 
 ```yaml
 name: Cards Against Humanities
-version: 1.0
-categories:
-  - white_cards:
-    - value1
-    - value2
-    - value3
-  - black_cards:
-    - value1
-    - value2
-    - value3
+version: 0.1.0
+expansions:                     # Expansions are explained below
+  - default:                    # ^^^
+    name: The Default Expansion # ^^^
+    white_cards:                # Category number 1
+      - value 1                     # A card value
+      - value 2                     # A card value
+    black_cards:                # Category number 2
+      - value 1                     # A card value
+      - value 2                     # A card value
 ```
 
 The code will enforce that the game name, at least one category, and at least
 one card exist. Beyond that, there are optional extras that make the game more
 playable and fun:
 
-- A short description of the game
 - Short instructions on how to play (should fit on one card)
 - Number of players
 - Duration of the game
 - Author(s)
 - Website link
 
+For example:
+```yaml
+name: Cards Against Humanities
+version: 1.0.0
+instructions: Each round, one player asks a question with a black card, and everyone else answers with their funniest white card
+num_players: 3 or more
+duration: Multiple rounds of ~5 minutes each
+authors: Cards Against Humanities Inc.
+website: https://www.cardsagainsthumanity.com/#downloads
+expansions:
+  - default:
+      name: The Default Expansion
+      white_cards:
+        - value 1
+        - value 2
+      black_cards:
+        - value 1
+        - value 2
+```
+
 The above information will be shown on the first page of the PDF, on the first
 couple of cards. The date of creation will also be printed on the first few
 cards.
 
 If you've got a lot (over 500) cards, then printing them out all at once might
-be too expensive. You can define _editions_ of your card game, such that each
-edition is mutually exclusive. This allows you to first create a small batch of
+be too expensive. You can define _expansions_ of your card game, such that each
+expansion is mutually exclusive. This allows you to first create a small batch of
 cards, print them out, and then if you want to create more cards you can define
-them as a second edition in the same `.yaml` file and tell the program to only
-print out the second edition.
+them as a second expansion in the same `.yaml` file and tell the program to only
+print out the second expansion.
 
-Or alternatively you could treat the different editions as themes for the game,
-like _The Halloween Edition_, _The Sexy Edition_, _The University Edition_, 
-_The "People I've Dated" Edition_, etc.
+Or alternatively you could treat the different expansions as themes for the game,
+like _The Halloween Expansion_, _The Sexy Expansion_, _The University Expansion_, 
+_The "People I've Dated" Expansion_, etc:
+
+```yaml
+name: Cards Against Humanities
+version: 1.0.0
+instructions: Each round, one player asks a question with a black card, and everyone else answers with their funniest white card
+num_players: 3 or more
+duration: Multiple rounds of ~5 minutes each
+authors: Cards Against Humanities Inc.
+website: https://www.cardsagainsthumanity.com/#downloads
+expansions:
+  - default:
+      name: The Default Expansion
+      white_cards:
+        - value 1
+        - value 2
+      black_cards:
+        - value 1
+        - value 2
+  - christmas:
+      name: The Christmas Expansion
+      white_cards:
+        - value1
+      black_cards:
+        - value1
+  - halloween:
+      name: The Halloween Expansion
+      white_cards:
+        - value1
+      black_cards:
+        - value1
+
+```
 
 ## YAML Card Game File to PDF
 
@@ -105,11 +157,11 @@ This is as simple as running the Rust code and passing in the path to your
 cargo run card_game_builder games/cards_against_humanities.yaml
 ```
 
-You can optionally pass in the edition(s) you'd like to generate as quoted
+You can optionally pass in the expansion(s) you'd like to generate as quoted
 strings:
 ```sh
 cargo run card_game_builder games/cards_against_humanities.yaml "The Sexy
-Edition" "The Chrismas Edition"
+Expansion" "The Chrismas Expansion"
 ```
 
 ## Contributions
