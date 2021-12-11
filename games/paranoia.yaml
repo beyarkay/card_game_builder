@@ -1,0 +1,47 @@
+name: Paranoia
+version: 0.1.0
+instructions: Draw a card, and whisper the question to the person to your left.
+  They answer out loud with the name of one or more people from the circle.
+  Flip a coin, and if it's heads then the question is said out loud to the
+  group. Otherwise the question remains a secret and whoever just answered now
+  gets to ask the person to their left a different (or the same) question.
+num_players: 4 or more
+duration: Multiple rounds of about 20 minutes each
+authors: Boyd Kane
+website: none
+expansions:
+  - base_pack:
+    name: Base Game
+    categories:
+      - questions:
+        name: Q's
+        items:
+          - If aliens invaded, who's most likely to fall in love with an invader?
+          - Name someone who flirts too much.
+          - Name someone who's into bondage.
+          - Name someone who's taken another person's virginity.
+          - Name someone you'd bury a body for.
+          - Name someone you'd marry if you were both 40+ and single (HIMYM-style).
+          - Who could acquire a condom the fastest?
+          - Who could get a stranger to kiss them the fastest?
+          - Who could get a stranger to sleep with them the fastest?
+          - Who do you do you think uses a condom the least during sex?
+          - Who do you do you think uses a condom the most?
+          - Who do you think has a deep dark secret?
+          - Who do you think has the least pubic hair?
+          - Who do you think has the most money saved up?
+          - Who gives the best oral?
+          - Who pays the most attention to their partner in bed?
+          - Who would be most keen for a threesome?
+          - Who would know the best pick-up lines?
+          - Who would know the most pick-up lines?
+          - Who would you be least surprised to see in a porno?
+          - Who would you go to for a loan?
+          - Who would you lend the most money to?
+          - Who's corpse are you going to eat first in a desert island?
+          - Who's most likely to be a sugar daddy / sugar mommy?
+          - Who's most likely to become a household name?
+          - Who's most likely to get a boob job / dick enlargement?
+          - Who's most likely to have an STD?
+          - Who's most likely to think they're being hit on but actually, they're not?
+          - Who's the next person to change their relationship status?

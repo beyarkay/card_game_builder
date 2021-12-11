@@ -1,6 +1,7 @@
 # Card Game Builder
+(Lewd language warning)
 
-### Convert card game ideas into printable PDFs you can cut out!
+### Convert card game ideas into printable PDFs you can cut out! 
 
 Lots of card games boil down to basically just a load of creative prompts on
 cardboard which you. Think 
