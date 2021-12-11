@@ -1,0 +1,461 @@
+name: Red Flags
+version: 0.1.0
+instructions: We are all introducing one lucky friend to what we believe is
+  their perfect match! When it's your turn, choose 2 perks you believe they
+  would like in a person they date. After all perks are placed, you will have
+  the chance to destroy your opponents adding a red flag to their applicant.
+  Then your friend has to pick the best (or least worst) applicant, if yours
+  gets picked, you get a point!
+num_players: 4 or more
+authors: Boyd Kane
+website: none
+duration: Multiple rounds of about 20 minutes each
+expansions:
+  - basics:
+    name: Basics
+    categories:
+      - red_flags:
+        name: Red Flags
+        items:
+          - Has a carrot for a nose and will melt if they get too hot
+          - They are entirely fictional, but you love them anyway
+          - They share a bedroom with eight guys
+          - Adds you as an emergency contact on the first date
+          - They had your phone number before you had officially met
+          - Compulsive liar
+          - You've dated them before... It didn't work out last time
+          - Is top-half fish
+          - Is bottom half fish
+          - Only speaks in business buzzwords
+          - Refuses to have sex on a mattress
+          - They have really smelly breath
+          - They're a really bad kisser
+          - Thinks they're a Jedi
+          - Super super racist
+          - Sexist, but refuses to admit it
+          - Too stupid to get any of your jokes. But always asks for you to explain them, in elaborate detail.
+          - Owes the government a lot of money. They won't tell you how much
+          - Death row inmate
+          - They're more attracted to your sister / brother
+          - They're not sexually attracted to you
+          - Thinks you're ugly
+          - Their pet name for you is 'trash bag'
+          - Is always covered in ants, and doesn't think it's a problem
+          - Really really hates children
+          - Compulsively spits like a llama whenever they see children
+          - Only speaks in horrible puns
+          - Says they the ghost of everyone who has ever died
+          - Is literally always watching porn
+          - Is addicted to crack
+          - Is addicted to prescription drugs
+          - Back-seat driver
+          - Reads over your shoulder (out loud)
+          - Is six years old
+          - Only speaks in sarcasm
+          - Farts every time they kiss you
+          - Kicks every animal they see
+          - They refuse to clean themselves at all
+          - Amateur cannibal
+          - They're trying to get into a cult, but the cult doesn't want them
+          - Dabbles in torture
+          - Uses the word 'chillax' in every sentence
+          - Has a permanent fedora
+          - Has multiple dating apps installed on their phone
+          - Literally can't make decisions
+          - Has to pee every time you're about to do anything sexy
+          - Sold your pets on the internet
+          - They cannot talk normally, they always yell
+          - The constantly look angry at something
+          - Doesn't know the difference between your and you're
+          - Eats crayons
+          - Has a dozen kids from a dozen partners
+          - Is a hobbit
+          - Has eight kids and counting
+          - Is building an ark
+          - Snorts cinnamon compulsively and really wants you to try it
+          - Will only eat if you play airplane with their food
+          - Literally always on a skateboard
+          - Cries themself to sleep every night
+          - Takes you to a dodgy strip club on the first date
+          - Counts your calories
+          - Can't keep a job for more than a week
+          - Looks and smells just like your mom/dad
+          - Makes a gagging motion every time they see your face
+          - Is your clone
+          - Yawns every time you start a sentence
+          - Second name is Hitler. They'll insist that you take their name if you marry
+          - Still in fourth grade
+          - Teleports to the North Pole every time they say the word love
+          - Every time you think about them you dry heave
+          - For the second date they take you to couples therapy
+          - Only speaks in boy band lyrics
+          - Flirts with every service person
+          - Has never spelled a word correctly
+          - Dey only txt u lik dis, k?
+          - Collects human skulls. Says they're "practically free!"
+          - Is eligible for the Make-A-Wish Foundation
+          - Calls you by their ex's name
+          - Always wearing a Bluetooth headset
+          - Narrates your actions into a voice recorder. All. The. Time.
+          - Is the person you hated the most in high school and literally hasn't changed
+          - Posts all of your texts and emails online
+          - Really long fingernails
+          - Keeps asking if your best friend is "down"
+          - Only communicates with you via fax
+          - Invests everything they earn into crypto currency
+          - Is constantly trying to get you to join their pyramid scheme
+          - Only speaks Klingon
+          - Literally won't stop talking about their mother
+          - Can make their hands vibrate
+          - Describes all food as "yummy yummers"
+          - Writes erotic Bugs Bunny fan fiction
+          - Won't allow WiFi in the house
+          - Insists that if they take off their tin-foil hat then the government will steal their ideas
+          - Refuses to wash hands
+          - Responds to everything to say with "that's what she said"
+          - Is a serial killer, but hides it from you
+          - Only speaks in Disney song lyrics
+          - Incredibly compulsive
+          - Only eats deep-fried food
+          - Refuses to use electricity
+          - Tries to pay for everything with farm produce
+          - Always carries a ukulele strapped to their back
+          - Regularly hosts tea parties for dolls
+          - Is the oldest living person
+          - Constantly taking selfies
+          - Constantly vlogging your relationship to the internet
+          - Says "Could you not?" while you cry at a funeral
+          - Literally only talks about themselves
+          - Only responds to texts with "k"
+          - Is related to you
+          - Incapable of all emotion
+          - Is actually two children stacked on top of each other in a trench coat
+          - Name drops during dirty talk
+          - Tells you how their partners like it during sex
+          - Tells you to calm down after everything you say
+          - Always feels the need to sniff their hand after shaking hands with someone
+          - Is married with kids
+          - Constantly trying to bang your friends
+          - You're best friend has told you that they're really good in bed
+          - Refers to their genitals as their "untz-untz"
+          - Rigged to a time bomb
+          - Conveniently forgets their wallet every date night (they always have their ID though)
+          - Calls you a 4 out of 10 to your face
+          - Steals locks of your hair
+          - Is trying to genetically clone you
+          - You think they might be dating you for a psychology assignment
+          - Repeats your jokes but louder
+          - Constantly dismisses your opinion
+          - Compulsively licks doorknobs before opening the door
+          - Physically incapable of asking a question
+          - Jealous of your pet
+          - Afraid of sunlight
+          - They only ever want to sleep when you want to do something
+          - Speaks with a constantly changing foreign accent
+          - Literally always drunk
+          - Brings mom to first date
+          - Brings two friends to first date
+          - They're in a band called "Genuine Genocide"
+          - Literally never stops talking
+          - Constantly plotting to kill you
+          - Open mouth kisses their pets
+          - Immediately tries to kill you with a fork
+          - You've found them taking pictures of you while you're sleeping
+          - Super clingy
+          - Open mouth kisses their siblings
+          - Literally won't talk to you if you're part of the wrong Hogwarts house
+          - Everyone you speak to seems to have slept with them
+          - Always picking their nose
+          - Only speaks in hashtags
+          - Demands to pop all of your zits for you
+          - Recites all the lines from "Titanic" in their sleep
+          - Is really obsessive about conspiracy theories
+          - Narrates everything they do out loud
+          - Puts "air quotes" around "every word" they say
+          - Knocks things out of strangers' hands while walking down the street
+          - Charges you a quarter every time you say a curse word
+          - Is literally always naked
+          - Talks dirty to all of their food
+          - Has the names of all of their exes tattooed on their face
+          - Only wears clothing made of human hair
+          - Owns a beet farm
+          - Wears diapers because it's "more convenient"
+          - Can only speak in memes from TikTok
+          - Only laughs at their own jokes
+          - Constantly starts their sentences with "I'm not racist, but"
+          - Constantly starts their sentences with "I'm not sexist, but"
+          - Just got out of prison / but won't tell you what they were in for
+          - 50 Shades of Grey is literally the only book they've read
+          - They own multiple sex toys
+          - Don't believe New Zealand is a real place
+          - Has been stalking you since middle school
+          - Is 10 years older than they were in their profile picture
+          - Is a vampire... Not the sexy kind
+          - Winks at you after everything they say ;)
+          - Ejaculates bees
+          - Can only orgasm if they're touching a spider
+          - Swears you look exactly like their sibling, but says "that's a good thing"
+          - Ends every conversation with "you're dismissed"
+          - Insists you call them sir/ma'am
+          - Sells their pubic hair
+          - Their sex tape with a local priest just went viral
+          - Can only have conversations through puppets
+          - Pinky promises that they're of legal age
+          - Yells "Language!" whenever they hear a bad word
+          - Amateur vigilante
+          - Keeps talking about their "hot cousin"
+          - Talks exclusively in emojis
+          - Always bragging about past sexual conquests
+          - Uses way way way too much tongue
+          - They really don't know how to turn you on
+          - Refuses to cover face while sneezing
+          - Refuses to look up from phone
+          - Keeps talking about someone who looks just like you, just better!
+          - Is extremely superstitious
+          - Doesn't understand your jokes
+          - Doesn't believe in oral sex
+          - Laughs manically during sex
+          - Keeps on calling you their parent's name during sex
+          - Live-tweets your entire date
+          - Technically hasn't broken up with their last partner yet
+          - Has recently slept with one of your parents
+          - They've just broken up with your best friend
+          - Your friends really hate them
+          - Always dresses like a mime
+          - Only speaks in motivational quotes
+          - They can see through people's clothes
+          - Is constantly on one fad diet trend or another
+          - Static shocks you every time you touch
+          - Is allergic to all of your favourite foods
+          - They like, say "like", like all the time, yeah?
+          - Begins every sentence with "actually"
+          - Remembers every one of your mistakes, and reminds you of them
+          - Thinks they're smarter than you, but they're really not
+      - orange_flags:
+        name: Orange Flags # Things which are green for some people, red for others
+        items:
+          - They have a twin
+          - Stunt double
+          - They're so attractive strangers stare at them
+          - They love kissing
+          - They want kids someday
+          - They want kids ASAP
+      - green_flags:
+        name: Green Flags
+        items:
+          - They know how to take a compliment
+          - They own your favourite museum
+          - They own your favourite restaurant
+          - They get along well with your friends
+          - Gives you multiple orgasms
+          - Likes cuddling as long (or short) as you do
+          - Has the most attractive ___ you've ever seen
+          - They make your ex jealous
+          - Generous
+          - They smell really good
+          - Fiercely loyal
+          - Believes you are the most attractive person they've ever seen
+          - Trusting
+          - Respectful
+          - Honest
+          - Patient
+          - Reliable
+          - Courteous
+          - Funniest person in the world
+          - Affectionate
+          - Good listener
+          - Supportive
+          - Generous
+          - Driven
+          - Perfect communicator
+          - Always makes time for you
+          - Always gives you perfect gifts
+          - Perfect amount of physical affection
+          - Adventurous
+          - Loves you unconditionally
+          - In touch with their feelings
+          - Your parents love them
+          - Your friends and enemies are jealous
+          - Owns a magic carpet
+          - Volunteers with elderly people
+          - Loves dogs
+          - Loves cats
+          - Loves theatre
+          - Animal shelter volunteer
+          - Travels a lot
+          - Really into wine
+          - Loves video games
+          - Has front row tickets to every concert
+          - Has front row tickets to every sporting event
+          - Loves sports
+          - Loves the outdoors
+          - Loves staying in
+          - Owns your favourite museum
+          - Same favourite movies
+          - Same favourite books
+          - Same favourite foods
+          - Same favourite music
+          - Lives off the grid
+          - Loves children
+          - Millionaire
+          - Most physically attractive person you have ever seen
+          - Owns a vineyard
+          - Owns an adorable coffee shop
+          - Lives on 100 beach front acres
+          - Owns a solid gold private jet
+          - Has a magic bag that contains unlimited cheese
+          - Has a magic pint glass that contains unlimited beer
+          - Owns a 100m yacht
+          - Owns an island in the Bahamas
+          - Owns your favourite sports team
+          - Owns a penthouse suite in your favourite city
+          - Gives millions to your favourite charity
+          - Owns a time machine
+          - Lives in a castle
+          - Has the best hair ever
+          - Owns a unicorn
+          - Genius-level IQ
+          - Owns a successful start-up
+          - Best sex ever
+          - Can get you both into literally anywhere
+          - You'll never have to work while you date them
+          - You'll never get sick while you date them
+          - You literally will not age while you date them
+          - Always smells like _____
+          - Speaks every romantic language
+          - Is a professional _____
+          - Owns a _____
+          - Knows everything about _____
+          - Volunteers for _____
+          - You will never gain weight while you date them
+          - Has the voice of an angel
+          - Owns a goose that lays designer clothing
+          - Has a cellar full of _____
+          - Professional surfer
+          - Rocket scientist
+          - Model
+          - Professional football player
+          - Famous artist
+          - College English professor
+          - Firefighter
+          - Astronaut
+          - President
+          - Rodeo champion
+          - Professional wrestler
+          - Famous movie star
+          - Famous musician
+          - Famous rapper
+          - Porn star
+          - Supermodel
+          - Professional chef
+          - Is never gonna give you up / Let you down / Run around / Or desert you
+          - World's best hair stylist
+          - Brain surgeon
+          - Lawyer
+          - CEO
+          - World's best advertising executive
+          - Airline pilot
+          - Marine
+          - Spin instructor
+          - Bestselling author
+          - YouTube celebrity
+          - Lumberjack
+          - Organic farmer
+          - Stunt double
+          - Park ranger
+          - Ski instructor
+          - Photographer
+          - Famous fashion designer
+          - Is royalty
+          - Is a genie
+          - World champion _____
+          - World champion hunter
+          - Won the medal of honour
+          - Was on the news for rescuing a kitten
+          - Yoga instructor
+          - The hot barista
+          - Has an 8-pack
+          - Olympic gymnast
+          - Never arrives prematurely ;)
+          - Is a vampire... / the sexy kind
+          - The lead singer of your favourite band
+          - Beautiful eyes that you can get lost in
+          - Completely blind to all of your flaws
+          - Spontaneous and fun
+          - Makes you feel secure
+          - Makes you feel safe
+          - You can steal their clothing and they're cool with it
+          - Has the hottest friends
+          - Can fly
+          - Superhero
+          - Loves to laugh
+          - Makes scented candles
+          - Loves the 1980s
+          - Cooks all your favourite foods
+          - Knows all the words to your favourite children's TV theme songs
+          - Never blames you for anything
+          - Can get you free drinks forever at any bar in the world
+          - Creates shelters for the homeless
+          - Their kisses cure cancer
+          - Is a great conversationalist
+          - Gives the best hugs
+          - Always knows how to stop you from crying
+          - An amazing dancer
+          - Always defends you
+          - Can get you a table at any 5-star restaurant any time any place
+          - Can fire your most hated co-worker or boss
+          - Their farts smell like flowers
+          - Never farts
+          - Their morning breath smells like fresh-baked cookies
+          - Owns Mars
+          - Is a night person and a morning person
+          - Loves their job
+          - Has all the same hobbies as you
+          - Can talk to animals
+          - Owns real dinosaurs
+          - Gives great massages
+  - fairy_tail:
+    name: Fairy Tail Flags
+    categories:
+      - red_flags:
+        name: Red Flags
+        items:
+          - None, yet
+      - orange_flags:
+        name: Orange Flags
+        items:
+          - None, yet
+      - green_flags:
+        name: Green Flags
+        items:
+          - None, yet
+  - darker:
+    name: Darker Flags
+    categories:
+      - red_flags:
+        name: Red Flags
+        items:
+          - None, yet
+      - orange_flags:
+        name: Orange Flags
+        items:
+          - None, yet
+      - green_flags:
+        name: Green Flags
+        items:
+          - None, yet
+  - nerdier:
+    name: Nerdier Flags
+    categories:
+      - red_flags:
+        name: Red Flags
+        items:
+          - None, yet
+      - orange_flags:
+        name: Orange Flags
+        items:
+          - None, yet
+      - green_flags:
+        name: Green Flags
+        items:
+          - None, yet
