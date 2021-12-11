@@ -15,9 +15,11 @@ with.
 
 ### Examples
 Red Flags (see `img/red_flags.pdf` for the full pdf):
+
 ![](img/red_flags_example.png)
 
 So you're in a hot air balloon:
+
 ![](img/hot_air_balloon.png)
 
 ## Features
