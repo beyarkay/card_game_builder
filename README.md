@@ -13,6 +13,13 @@ your prompts in a file. The Rust program will then convert that file to a PDF
 with nicely formatted cards which you can print off, cut out, and then play
 with.
 
+### Examples
+Red Flags (see `img/red_flags.pdf` for the full pdf):
+![](img/red_flags_example.png)
+
+So you're in a hot air balloon:
+![](img/hot_air_balloon.png)
+
 ## Features
 
 - Open source
