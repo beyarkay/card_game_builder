@@ -1,156 +1,373 @@
 name: Chameleon
 version: 0.1.0
-instructions: 
+instructions: Each player says one word aloud to describe on of the cards from
+  a given expansion. All players are referring to the same card, except for the
+  chameleon who doesn't know which card they're meant to be describing. Once
+  everyone has said their word, debate and try to find out who is the
+  chameleon. The players win if they find the chameleon, the chameleon wins if
+  the players can't find them or if they manage to figure out the card after
+  they've been found.
 num_players: 3 to 10
 duration: Multiple rounds of ~15 minutes
 authors: Big Potato Games
 website: https://bigpotato.com/products/the-chameleon
 expansions:
+  - chameleon_finder:
+    name: Chameleon Finder
+    categories:
+      - A1:
+        name: A1
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+          - Not the chameleon, the card is A1
+      - A2:
+        name: A2
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+          - Not the chameleon, the card is A2
+      - A3:
+        name: A3
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+          - Not the chameleon, the card is A3
+      - A4:
+        name: A4
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+          - Not the chameleon, the card is A4
+      - B1:
+        name: B1
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+          - Not the chameleon, the card is B1
+      - B2:
+        name: B2
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+          - Not the chameleon, the card is B2
+      - B3:
+        name: B3
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+          - Not the chameleon, the card is B3
+      - B4:
+        name: B4
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+          - Not the chameleon, the card is B4
+      - C1:
+        name: C1
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+          - Not the chameleon, the card is C1
+      - C2:
+        name: C2
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+          - Not the chameleon, the card is C2
+      - C3:
+        name: C3
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+          - Not the chameleon, the card is C3
+      - C4:
+        name: C4
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+          - Not the chameleon, the card is C4
+      - D1:
+        name: D1
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+          - Not the chameleon, the card is D1
+      - D2:
+        name: D2
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+          - Not the chameleon, the card is D2
+      - D3:
+        name: D3
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+          - Not the chameleon, the card is D3
+      - D4:
+        name: D4
+        items:
+          - You're the chameleon!
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
+          - Not the chameleon, the card is D4
   - phobias:
     name: Phobias
     categories:
       - cards:
-        name: cards
+        name:
         items:
-          - Birds
-          - Children
-          - Clowns
-          - Dogs
-          - Germs
-          - Ghosts
-          - Insects
-          - Monsters
-          - Needles
-          - Planes
-          - Rats
-          - Roller Coasters
-          - Shadows
-          - Snakes
-          - Spiders
-          - Toilets
+          - (A1) Birds
+          - (A2) Children
+          - (A3) Clowns
+          - (A4) Dogs
+          - (B1) Germs
+          - (B2) Ghosts
+          - (B3) Insects
+          - (B4) Monsters
+          - (C1) Needles
+          - (C2) Planes
+          - (C3) Rats
+          - (C4) Roller Coasters
+          - (D1) Shadows
+          - (D2) Snakes
+          - (D3) Spiders
+          - (D4) Toilets
   - disney_movies:
     name: Disney Movies
     categories:
       - cards:
-        name: cards
+        name:
         items:
-          - Aladdin
-          - Beauty and the Beast
-          - Big Hero 6
-          - Cars
-          - Finding Nemo
-          - Moana
-          - Monster's Inc.
-          - Mulan
-          - Ratatouille
-          - The Increadibles
-          - The Lion King
-          - The Little Mermaid
-          - Toy Story
-          - Up
-          - WALL-E
-          - Zootopia
+          - (A1) Aladdin
+          - (A2) Beauty and the Beast
+          - (A3) Big Hero 6
+          - (A4) Cars
+          - (B1) Finding Nemo
+          - (B2) Moana
+          - (B3) Monster's Inc.
+          - (B4) Mulan
+          - (C1) Ratatouille
+          - (C2) The Increadibles
+          - (C3) The Lion King
+          - (C4) The Little Mermaid
+          - (D1) Toy Story
+          - (D2) Up
+          - (D3) WALL-E
+          - (D4) Zootopia
   - food:
     name: Food
     categories:
       - cards:
-        name: cards
+        name:
         items:
-          - Beef
-          - Bread
-          - Cake
-          - Cheese
-          - Chicken
-          - Chocolate
-          - Eggs
-          - Fish
-          - Fruit
-          - Ice Cream
-          - Pasta
-          - Pizza
-          - Potatoes
-          - Salad
-          - Sausage
-          - Soup
+          - (A1) Beef
+          - (A2) Bread
+          - (A3) Cake
+          - (A4) Cheese
+          - (B1) Chicken
+          - (B2) Chocolate
+          - (B3) Eggs
+          - (B4) Fish
+          - (C1) Fruit
+          - (C2) Ice Cream
+          - (C3) Pasta
+          - (C4) Pizza
+          - (D1) Potatoes
+          - (D2) Salad
+          - (D3) Sausage
+          - (D4) Soup
   - jobs:
     name: Jobs
     categories:
       - cards:
-        name: cards
+        name:
         items:
-          - Accountant
-          - Angler
-          - Architect
-          - Butcher
-          - Carpenter
-          - Chef
-          - Lawyer
-          - Lighthouse Keeper
-          - Lorry Driver
-          - Lumberjack
-          - Nurse
-          - Police Officer
-          - Secretary
-          - Security Guard
-          - Teacher
-          - Waitron
+          - (A1) Accountant
+          - (A2) Angler
+          - (A3) Architect
+          - (A4) Butcher
+          - (B1) Carpenter
+          - (B2) Chef
+          - (B3) Lawyer
+          - (B4) Lighthouse Keeper
+          - (C1) Lorry Driver
+          - (C2) Lumberjack
+          - (C3) Nurse
+          - (C4) Police Officer
+          - (D1) Secretary
+          - (D2) Security Guard
+          - (D3) Teacher
+          - (D4) Waitron
   - uni_majors:
     name: University Majors 
     categories:
       - cards:
-        name: cards
+        name:
         items:
-          - Accounting
-          - Archaeology
-          - Architecture
-          - Astronomy
-          - Chemical Engineering
-          - Computer Science
-          - Dance
-          - Economics
-          - Electrical Engineering
-          - Film and Media
-          - Fine Art
-          - Gender Studies
-          - Geology
-          - History
-          - Industrial Engineering
-          - Information Systems
-          - Law
-          - Linguistics
-          - Literature
-          - Mathematics
-          - Mechanical Engineering
-          - Mechatronics
-          - Music
-          - Philosophy
-          - Phsychology
-          - Physics
-          - Religious Studies
-          - Statistics
-          - Teaching
-          - Theatre
+          - (A1) Accounting
+          - (A2) Archaeology
+          - (A3) Architecture
+          - (A4) Astronomy
+          - (B1) Chemical Engineering
+          - (B2) Computer Science
+          - (B3) Dance
+          - (B4) Economics
+          - (C1) Electrical Engineering
+          - (C2) Film and Media
+          - (C3) Fine Art
+          - (C4) Gender Studies
+          - (D1) Geology
+          - (D2) History
+          - (D3) Industrial Engineering
+          - (D4) Information Systems
   - conspiracies:
     name: Conspiracies
     categories:
       - cards:
-        name: cards
+        name:
         items:
-          - 9/11
-          - Flat Earth
-          - Vaccines
-          - Lizard People
-          - The Royal Family
-          - Crop Circles
-          - The Metric System
-          - Birds aren't real
-          - The Illuminati
-          - The Moon Landing
-          - Bermuda Triangle
-          - Hollow Earth
-          - Bigfoot
-          - The Loch Ness Monster
-          - Chemtrails
-          - MK-ULTRA
-          - Shadow Government
-
+          - (A1) 9/11
+          - (A2) Flat Earth
+          - (A3) Vaccines
+          - (A4) Lizard People
+          - (B1) The Royal Family
+          - (B2) Crop Circles
+          - (B3) The Metric System
+          - (B4) Birds aren't real
+          - (C1) The Illuminati
+          - (C2) The Moon Landing
+          - (C3) Bermuda Triangle
+          - (C4) Hollow Earth
+          - (D1) Bigfoot
+          - (D2) The Loch Ness Monster
+          - (D3) Chemtrails
+          - (D4) MK-ULTRA
