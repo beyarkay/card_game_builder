@@ -15,7 +15,7 @@ expansions:
     name: Basics
     categories:
       - red_flags:
-        name: Red Flags
+        name: Red
         items:
           - Has a carrot for a nose and will melt if they get too hot
           - They are entirely fictional, but you love them anyway
@@ -232,7 +232,7 @@ expansions:
           - Remembers every one of your mistakes, and reminds you of them
           - Thinks they're smarter than you, but they're really not
       - orange_flags:
-        name: Orange Flags # Things which are green for some people, red for others
+        name: Orange # Things which are green for some people, red for others
         items:
           - They have a twin
           - Stunt double
@@ -241,7 +241,7 @@ expansions:
           - They want kids someday
           - They want kids ASAP
       - green_flags:
-        name: Green Flags
+        name: Green
         items:
           - They know how to take a compliment
           - They own your favourite museum
@@ -418,44 +418,44 @@ expansions:
     name: Fairy Tail Flags
     categories:
       - red_flags:
-        name: Red Flags
+        name: Red
         items:
           - None, yet
       - orange_flags:
-        name: Orange Flags
+        name: Orange
         items:
           - None, yet
       - green_flags:
-        name: Green Flags
+        name: Green
         items:
           - None, yet
   - darker:
     name: Darker Flags
     categories:
       - red_flags:
-        name: Red Flags
+        name: Red
         items:
           - None, yet
       - orange_flags:
-        name: Orange Flags
+        name: Orange
         items:
           - None, yet
       - green_flags:
-        name: Green Flags
+        name: Green
         items:
           - None, yet
   - nerdier:
-    name: Nerdier Flags
+    name: Nerdier
     categories:
       - red_flags:
-        name: Red Flags
+        name: Red
         items:
           - None, yet
       - orange_flags:
-        name: Orange Flags
+        name: Orange
         items:
           - None, yet
       - green_flags:
-        name: Green Flags
+        name: Green
         items:
           - None, yet
