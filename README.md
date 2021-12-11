@@ -185,6 +185,10 @@ cargo run card_game_builder games/cards_against_humanities.yaml "The Sexy
 Expansion" "The Chrismas Expansion"
 ```
 
+The `.yaml` files are first converted to `LaTeX`, via the
+[flashcards](https://www.ctan.org/tex-archive/macros/latex/contrib/flashcards/)
+class, and then that `LaTeX` file is compiled to a pdf document.
+
 ## Contributions
 
 Contributions are very welcome! And they don't have to be code either. If
