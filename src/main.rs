@@ -2,10 +2,19 @@ use serde::{Deserialize, Serialize};
 use serde_yaml::{self};
 use std::fs::File;
 use std::io::Write;
+use std::env;
 
 
 fn main() {
-    let f = std::fs::File::open("games/chameleon.yaml").expect("Could not open file.");
+    let args: Vec<String> = env::args().collect();
+    let filename: String;
+    if args.len() != 2 {
+        println!("Using `games/chameleon.yaml` as default gamefile.");
+        filename = "games/chameleon.yaml".to_string();
+    } else {
+        filename = format!("{}", args[1]);
+    }
+    let f = std::fs::File::open(filename).expect("Could not open file.");
     let chameleon_game: Game = serde_yaml::from_reader(f).expect("Could not read values.");
     // Create one PDF per expansion
     for expansion in chameleon_game.expansions {
