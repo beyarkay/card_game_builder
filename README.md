@@ -50,11 +50,12 @@ So you're in a hot air balloon:
 First you'll need to download the PDF files. You can easily do this by going to
 [`pdfs/`](https://github.com/beyarkay/card_game_builder/tree/main/pdfs) and
 downloading the games you're interested in. Instructions and game information
-are all on the first page of the pdf.  Once you've got the PDF, it's really
-worth the effort to take it to a print shop and ask them to print it out for
-you on card, and then ask to use their guillotine (or ask if they'll cut it up
-for you). This makes the game much more playable than trying to print it out
-yourself on regular printer paper.
+are all on the first page of the pdf.  
+
+Once you've got the PDF, it's really worth the effort to take it to a print
+shop and ask them to print it out for you on card, and then ask to use their
+guillotine (or ask if they'll cut it up for you). This makes the game much more
+playable than trying to print it out yourself on regular printer paper.
 
 Once you've got all your cards cut out, I _highly_ recommend buying a box or
 two of small circle stickers and putting one sticker around the corner of each
@@ -64,6 +65,9 @@ it much easier to keep all the cards the right way up.
 
 You can also often get long thin plastic boxes from a plastics warehouse which
 are perfect for holding the cards.
+
+Beyond this, you're basically done. Enjoy the game and be sure to leave
+comments/feature requests if you find something that could be improved!
 
 ## Creating your own card game
 
@@ -81,7 +85,7 @@ and then `cargo run`:
 3. `cargo run`
 
 
-### Defining you're own game as a `YAML` file
+### Defining your own game as a `YAML` file
 
 The Rust code expects to be given a `.yaml` file, and will write one or more
 `.pdf` files. This `.yaml` file is what you'll write to describe your game, and
@@ -92,12 +96,15 @@ must include _everything_ about that game, including:
 ```yaml
 name: Red Flags
 version: 0.1.0
-instructions: We are all introducing one lucky friend to what we believe is
-  their perfect match! When it's your turn, choose 2 perks you believe they
-  would like in a person they date. After all perks are placed, you will have
-  the chance to destroy your opponents adding a red flag to their applicant.
-  Then your friend has to pick the best (or least worst) applicant, if yours
-  gets picked, you get a point!
+instructions: We are all introducing one lucky
+    friend to what we believe is their perfect match!
+    When it's your turn, choose 2 perks you believe
+    they would like in a person they date. After all
+    perks are placed, you will have the chance to
+    destroy your opponents adding a red flag to their
+    applicant. Then your friend has to pick the best
+    (or least worst) applicant, if yours gets picked,
+    you get a point!
 num_players: 4 or more
 authors: Darin Ross, Skybound Games
 website: https://www.amazon.com/Red-Flags-400-Card-Main-Game/dp/B018EXPGPI
@@ -108,10 +115,11 @@ duration: Multiple rounds of about 20 minutes each
 - The game format is designed to allow you to expand upon the game later. You
   do this by defining one or more `expansions` (like `The Base Game`, `The
   Halloween Expansion`, `The Nerdy Expansion`, etc) and then each of these
-  expansions should have one or more categories. 
+  expansions should have one or more categories. Expansions are described in
+  more detail below.
 - The categories are used if you need different types of cards (like red flags
   and green flags in the game Red Flags, or like black cards and white cards in
-  Cards Against Humanities).
+  the game Cards Against Humanities).
 - Within each category is where you actually write your prompts for the game.
   For example:
 
@@ -119,10 +127,12 @@ duration: Multiple rounds of about 20 minutes each
 ...                     # The preamble described above isn't included here
 expansions:                 
   - base:               # This is the `base` expansion, defining the main game
-    name: The Base Game
+    name: The Base Game # Each expansion should have a name, which will be
+                        # printed on the card
     categories:         # The base expansion has 2 categories:
       - red_flags:      # The first category is Red, for bad personality traits
-        name: Red
+        name: Red       # Each category should have a name, which will be
+                        # printed on the card
         items:
           - Adds you as an emergency contact on the first date
           - They had your phone number before you had officially met
@@ -143,10 +153,10 @@ for a complete example, or see the [template yaml
 file](https://github.com/beyarkay/card_game_builder/blob/main/games/template.yaml)
 for something you can copy-paste and then fill out the details yourself.
 
-All the 'metadata' (instructions, number of players, creation date, etc) will
-be printed on the first few cards and specially formatted so that you can just
-bundle the instructions together with the playing cards in the same box and not
-have to worry about losing it.
+All the 'metadata' information (instructions, number of players, creation date,
+etc) will be printed on the first few cards and specially formatted so that you
+can just bundle the instructions together with the playing cards in the same box
+and not have to worry about losing it.
 
 ### Halp! Printing all this is getting expensive
 
@@ -228,4 +238,36 @@ you've got a card game file that you'd like to contribute, then submit a pull
 request and I'll add it.
 
 Features, bug fixes, and improvements are also welcome!
+
+## Future game ideas
+- (Super Fight Live)[http://www.superfightlive.com/the-game/]: Build your
+  fighter with character cards (like Zombie, Shark, or George W. Bush) and
+  attribute cards (like Super Speed, Armed with a Chainsaw, or Has Tiny T-Rex
+  Arms). When it’s your turn, combine a character card with a couple of
+  attribute cards to construct your fighter, then it’s up to you to make your
+  case to an audience of friends or Twitch! The included FREE Blue, Purple, and
+  Challenge Decks also allow players to throw hundreds of random locations,
+  scenarios, and challenges into the mix for even MORE mayhem. Additional themed
+  decks, like the R-rated Red Deck or the Geek themed Orange Deck, are available
+  to purchase, with even more hilarious digital decks to come in future updates!
+- (Business Panda Beach
+  Party)[https://www.kickstarter.com/projects/jackdire/business-panda-beach-party/description]:
+  One player at a time takes the stage, and is given randomly-assigned
+  characters and attributes to act out. But here's the catch: THE PLAYER ON THE
+  STAGE CAN ONLY USE ONE WORD THROUGHOUT THEIR ENTIRE TURN.
+
+  The default word used is "bamboo", or the game can be played with players using
+  a word chosen by the opposing team. Use the player's ex's name. Use a word that
+  disgusts them. Use "anthropomorphic". You get it.
+
+  Teammates then select the cards they believe are being acted out, and are
+  awarded points based on correct guesses, with penalties for incorrect guesses
+- Expand out the existing card games
+
+## Future code ideas
+
+- Actually convert `.tex` files to LaTeX automatically
+- Actually have front matter on the first few cards
+- Use the GitHub releases feature instead of committing `.pdf` files to source
+  control
 
