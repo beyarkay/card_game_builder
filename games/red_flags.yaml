@@ -7,8 +7,8 @@ instructions: We are all introducing one lucky friend to what we believe is
   Then your friend has to pick the best (or least worst) applicant, if yours
   gets picked, you get a point!
 num_players: 4 or more
-authors: Boyd Kane
-website: none
+authors: Darin Ross, Skybound Games
+website: https://www.amazon.com/Red-Flags-400-Card-Main-Game/dp/B018EXPGPI
 duration: Multiple rounds of about 20 minutes each
 expansions:
   - basics:
@@ -17,12 +17,12 @@ expansions:
       - red_flags:
         name: Red
         items:
-          - Has a carrot for a nose and will melt if they get too hot
-          - They are entirely fictional, but you love them anyway
-          - They share a bedroom with eight guys
           - Adds you as an emergency contact on the first date
           - They had your phone number before you had officially met
           - Compulsive liar
+          - Has a carrot for a nose and will melt if they get too hot
+          - They are entirely fictional, but you love them anyway
+          - They share a bedroom with eight guys
           - You've dated them before... It didn't work out last time
           - Is top-half fish
           - Is bottom half fish
@@ -244,13 +244,13 @@ expansions:
         name: Green
         items:
           - They know how to take a compliment
+          - They make your ex jealous
           - They own your favourite museum
           - They own your favourite restaurant
           - They get along well with your friends
           - Gives you multiple orgasms
           - Likes cuddling as long (or short) as you do
           - Has the most attractive ___ you've ever seen
-          - They make your ex jealous
           - Generous
           - They smell really good
           - Fiercely loyal

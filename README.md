@@ -1,13 +1,28 @@
 # Card Game Builder
 (Lewd language warning)
 
+## Quickstart
+Go to the 
+[`pdfs/`](https://github.com/beyarkay/card_game_builder/tree/main/pdfs) 
+folder and download the card games you want. The instructions for each game
+are on the first page of the pdf. Currently, the card games available are:
+
+- Cards Against Humanity
+- Chameleon
+- Fake Artist Goes To NYC
+- Most Of These People Are Lying
+- No Thanks
+- Paranoia
+- Red Flags
+- So You're In A Hot Air Balloon
+
 ### Convert card game ideas into printable PDFs you can cut out! 
 
 Lots of card games boil down to basically just a load of creative prompts on
 cardboard which you. Think 
 [Cards Against Humanities](https://www.cardsagainsthumanity.com/#downloads), 
-[Chameleon](https://bigpotato.com/products/the-chameleon), 
-[Red Flags](https://www.timelessboardgames.co.za/boardgames/red-flags-main-game/1985), etc.
+[Red Flags](https://www.timelessboardgames.co.za/boardgames/red-flags-main-game/1985),
+[Chameleon](https://bigpotato.com/products/the-chameleon), etc
 
 This project aims to make it simple to create your own card games by writing up
 your prompts in a file. The Rust program will then convert that file to a PDF
@@ -15,7 +30,7 @@ with nicely formatted cards which you can print off, cut out, and then play
 with.
 
 ### Examples
-Red Flags (see `img/red_flags.pdf` for the full pdf):
+Red Flags (see [`pdfs/red_flags.pdf`](https://github.com/beyarkay/card_game_builder/tree/main/pdfs/red_flags.pdf)) for the full pdf):
 
 ![](img/red_flags_example.png)
 
@@ -30,21 +45,16 @@ So you're in a hot air balloon:
 - Easy (and flexible) interface via standard 
   [YAML](https://sweetohm.net/article/introduction-yaml.en.html) markup files
 
-## Installation
+## How to print the files and start playing
 
-Assuming you've [installed git](https://git-scm.com/downloads) and have also
-[installed rust](https://www.rust-lang.org/tools/install), simply `git clone`
-and then `cargo run`:
-
-1. `git clone https://github.com/beyarkay/card_game_builder.git`
-2. `cd card_game_builder`
-3. `cargo run`
-
-## PDF file to playable card game
-
-The best way I've found is to take the PDF to a print shop, get it printed out
-on card, and then ask to use their guillotine (or ask if they'll cut it up for
-you).
+First you'll need to download the PDF files. You can easily do this by going to
+[`pdfs/`](https://github.com/beyarkay/card_game_builder/tree/main/pdfs) and
+downloading the games you're interested in. Instructions and game information
+are all on the first page of the pdf.  Once you've got the PDF, it's really
+worth the effort to take it to a print shop and ask them to print it out for
+you on card, and then ask to use their guillotine (or ask if they'll cut it up
+for you). This makes the game much more playable than trying to print it out
+yourself on regular printer paper.
 
 Once you've got all your cards cut out, I _highly_ recommend buying a box or
 two of small circle stickers and putting one sticker around the corner of each
@@ -57,147 +67,159 @@ are perfect for holding the cards.
 
 ## Creating your own card game
 
+Making your own card game is super simple. First, you'll need to download the
+code:
+
+### Installation
+
+Assuming you've [installed git](https://git-scm.com/downloads) and have also
+[installed rust](https://www.rust-lang.org/tools/install), simply `git clone`
+and then `cargo run`:
+
+1. `git clone https://github.com/beyarkay/card_game_builder.git`
+2. `cd card_game_builder`
+3. `cargo run`
+
+
+### Defining you're own game as a `YAML` file
+
 The Rust code expects to be given a `.yaml` file, and will write one or more
 `.pdf` files. This `.yaml` file is what you'll write to describe your game, and
 must include _everything_ about that game, including:
 
-- The name of the game and version number (following [SemVer](https://semver.org/))
+- The name of the game, version number (following [SemVer](https://semver.org/)), instructions, number of players, duration, authors, and website:
 
 ```yaml
-name: Cards Against Humanities
+name: Red Flags
 version: 0.1.0
+instructions: We are all introducing one lucky friend to what we believe is
+  their perfect match! When it's your turn, choose 2 perks you believe they
+  would like in a person they date. After all perks are placed, you will have
+  the chance to destroy your opponents adding a red flag to their applicant.
+  Then your friend has to pick the best (or least worst) applicant, if yours
+  gets picked, you get a point!
+num_players: 4 or more
+authors: Darin Ross, Skybound Games
+website: https://www.amazon.com/Red-Flags-400-Card-Main-Game/dp/B018EXPGPI
+duration: Multiple rounds of about 20 minutes each
 ...
 ```
 
-- A list of at least one `expansion`, where each `expansion` is given a name
-  and then an arbitrary number of other categories:
+- The game format is designed to allow you to expand upon the game later. You
+  do this by defining one or more `expansions` (like `The Base Game`, `The
+  Halloween Expansion`, `The Nerdy Expansion`, etc) and then each of these
+  expansions should have one or more categories. 
+- The categories are used if you need different types of cards (like red flags
+  and green flags in the game Red Flags, or like black cards and white cards in
+  Cards Against Humanities).
+- Within each category is where you actually write your prompts for the game.
+  For example:
 
 ```yaml
-...
-expansions:
-  - default:
-    name: The Default Expansion
-    white_cards:
-      - value 1
-      - value 2
-    black_cards:
-      - value 1
-      - value 2
+...                     # The preamble described above isn't included here
+expansions:                 
+  - base:               # This is the `base` expansion, defining the main game
+    name: The Base Game
+    categories:         # The base expansion has 2 categories:
+      - red_flags:      # The first category is Red, for bad personality traits
+        name: Red
+        items:
+          - Adds you as an emergency contact on the first date
+          - They had your phone number before you had officially met
+          - Compulsive liar
+          ...
+      - green_flags:    # The second category is Green, for good personality traits
+        name: Green
+        items:
+          - They know how to take a compliment
+          - They make your ex jealous
+          - Has a magic bag that contains unlimited cheese
+          ...
 ```
 
-- Each of these keys (`white_cards`, `black_cards`) will be printed off
+See the [full yaml file for Red
+Flags](https://github.com/beyarkay/card_game_builder/blob/main/games/red_flags.yaml)
+for a complete example, or see the [template yaml
+file](https://github.com/beyarkay/card_game_builder/blob/main/games/template.yaml)
+for something you can copy-paste and then fill out the details yourself.
 
+All the 'metadata' (instructions, number of players, creation date, etc) will
+be printed on the first few cards and specially formatted so that you can just
+bundle the instructions together with the playing cards in the same box and not
+have to worry about losing it.
 
-For example `cards_against_humanities.yaml`: 
-```yaml
-name: Cards Against Humanities
-version: 0.1.0
-expansions:                     # Expansions are explained in more detail below
-  - default:                    # ^^^
-    name: The Default Expansion # ^^^
-    white_cards:                # Category number 1
-      - value 1                     # A card value
-      - value 2                     # A card value
-    black_cards:                # Category number 2
-      - value 1                     # A card value
-      - value 2                     # A card value
-```
-
-The code will enforce that the game name, at least one category, and at least
-one card exist. Beyond that, there are optional extras that make the game more
-playable and fun:
-
-- Short instructions on how to play (should fit on one card)
-- Number of players
-- Duration of the game
-- Author(s)
-- Website link
-
-For example:
-```yaml
-name: Cards Against Humanities
-version: 1.0.0
-instructions: Each round, one player asks a question with a black card, and everyone else answers with their funniest white card
-num_players: 3 or more
-duration: Multiple rounds of ~5 minutes each
-authors: Cards Against Humanities Inc.
-website: https://www.cardsagainsthumanity.com/#downloads
-expansions:
-  - default:
-      name: The Default Expansion
-      white_cards:
-        - value 1
-        - value 2
-      black_cards:
-        - value 1
-        - value 2
-```
-
-The above information will be shown on the first page of the PDF, on the first
-couple of cards. The date of creation will also be printed on the first few
-cards.
+### Halp! Printing all this is getting expensive
 
 If you've got a lot (over 500) cards, then printing them out all at once might
 be too expensive. You can define _expansions_ of your card game, such that each
 expansion is mutually exclusive. This allows you to first create a small batch of
 cards, print them out, and then if you want to create more cards you can define
 them as a second expansion in the same `.yaml` file and tell the program to only
-print out the second expansion.
+print out the second expansion. This way you can split the costs into smaller
+batches, or give the base game as a gift, and later give expansions to the same
+game as subsequent gifts.
 
-Or alternatively you could treat the different expansions as themes for the game,
-like _The Halloween Expansion_, _The Sexy Expansion_, _The University Expansion_, 
-_The "People I've Dated" Expansion_, etc:
+You could also treat the different expansions as themes for the game, like _The
+Halloween Expansion_, _The Sexy Expansion_, _The University Expansion_, _The
+"People I've Dated" Expansion_, etc.
+
+Example yaml using multiple expansions:
 
 ```yaml
-name: Cards Against Humanities
-version: 1.0.0
-instructions: Each round, one player asks a question with a black card, and everyone else answers with their funniest white card
-num_players: 3 or more
-duration: Multiple rounds of ~5 minutes each
-authors: Cards Against Humanities Inc.
-website: https://www.cardsagainsthumanity.com/#downloads
+...
 expansions:
-  - default:
-      name: The Default Expansion
-      white_cards:
-        - value 1
-        - value 2
-      black_cards:
-        - value 1
-        - value 2
-  - christmas:
-      name: The Christmas Expansion
-      white_cards:
-        - value1
-      black_cards:
-        - value1
-  - halloween:
-      name: The Halloween Expansion
-      white_cards:
-        - value1
-      black_cards:
-        - value1
-
+  - base:                       # The base expansion, for the base game
+    name: The Base Game
+    categories:
+      - red_flags:
+        ...
+      - orange_flags:
+        ...
+      - green_flags:
+        ...
+  - nerdier:                    # The Nerdy expansion, for nerdy red flags
+    name: Nerdier Red Flags
+    categories:
+      - red_flags:
+        ...
+      - orange_flags:
+        ...
+      - green_flags:
+        ...
+  - fairy_tale:                 # The Fairy-tale expansion, for magical flags
+    name: Fairy-tale Flags
+    categories:
+      - red_flags:
+        ...
+      - orange_flags:
+        ...
+      - green_flags:
+        ...
 ```
 
 ## YAML Card Game File to PDF
 
+Once you've created your `yaml` file, you'll need to run the rust code to compile
+the `yaml` to a PDf that you can print.
+
 This is as simple as running the Rust code and passing in the path to your
 `.yaml` file. 
 ```sh
-cargo run card_game_builder games/cards_against_humanities.yaml
+cd card_game_builder
+cargo run games/cards_against_humanities.yaml
 ```
 
 You can optionally pass in the expansion(s) you'd like to generate as quoted
 strings:
 ```sh
-cargo run card_game_builder games/cards_against_humanities.yaml "The Sexy
-Expansion" "The Chrismas Expansion"
+cd card_game_builder
+cargo run card_game_builder games/cards_against_humanities.yaml "The Sexy Expansion" "The Chrismas Expansion"
 ```
 
 The `.yaml` files are first converted to `LaTeX`, via the
 [flashcards](https://www.ctan.org/tex-archive/macros/latex/contrib/flashcards/)
-class, and then that `LaTeX` file is compiled to a pdf document.
+class, and then that `LaTeX` file is compiled to a pdf document. If the LaTeX
+compilation succeeds, then the original `tex` files are deleted.
 
 ## Contributions
 
