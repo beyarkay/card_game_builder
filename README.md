@@ -267,6 +267,8 @@ Features, bug fixes, and improvements are also welcome!
   Teammates then select the cards they believe are being acted out, and are
   awarded points based on correct guesses, with penalties for incorrect guesses
 - Expand out the existing card games
+- (Life Boat)[https://boardgamegeek.com/boardgame/4174/lifeboat]
+- (Spy Fall)[https://boardgamegeek.com/boardgame/166384/spyfall]
 
 ## Future code ideas
 
