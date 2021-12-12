@@ -1,0 +1,60 @@
+name: Insider
+version: 0.1.0
+instructions: Do we really have free will? Who decides this? Are we controlled
+  by what we hear and what we see, even while thinking we decide freely?
+  Insider is a game that deals with these questions. While communicating to
+  others, you have to find the right answers to a quiz or find the "insider"
+  who is manipulating the discussion. The insider will do everything to hide
+  their identity while misleading the others.
+
+  In more detail, players are assigned roles at random. One player is the
+  "master", and they secretly select a word from a set given in a deck of
+  cards. (In a variant given in the rulebook, they can freely select and write
+  down a word.) The "insider" player, whose role is not known to the other
+  players, will then secretly view the word. The rest of the players are known
+  as "commons". The commons then have approximately five minutes in which to
+  ask the master "yes" or "no"-type questions so that they can deduce the
+  secret word. The insider attempts to secretly lead the commons towards the
+  correct word. If the commons fail to guess the correct word, everyone loses.
+
+  If, however, the word is correctly guessed in the allowable time, the master
+  flips the sand timer, and the commons and master have until the sand runs out
+  to discuss the game and deduce the identity of the insider. If they guess
+  correctly, they win the game together; if they do not, the insider wins.
+num_players: 4 to 8
+duration: 15 minutes per round
+authors: Kwaji, Daichi Okano, Kito Shinma, Oink Games
+website: https://boardgamegeek.com/boardgame/206051/insider/credits
+expansions:
+  - role_cards:
+    name: Role Cards
+    categories:
+      - roles:
+        name: Roles
+        items:
+          - Insider!
+          - Master
+          - Common
+          - Common
+          - Common
+          - Common
+          - Common
+          - Common
+          - Common
+          - Common
+          - Common
+  - base:
+    name: Base Game
+    categories:
+      - words:
+        name: Words
+        items:
+          - TODO
+          - TODO
+          - TODO
+          - TODO
+          - TODO
+          - TODO
+          - TODO
+          - TODO
+          - TODO
