@@ -38,6 +38,10 @@ So you're in a hot air balloon:
 
 ![](img/hot_air_balloon.png)
 
+Most of these People are Lying:
+
+![](img/motpal.png)
+
 ## Features
 
 - Open source
