@@ -1,0 +1,988 @@
+name: Fake Artist goes to New York
+version: 0.1.0
+instructions: Players take turns being the Question Master, whose role is to
+  set a category, write a word within that category on dry erase cards, and hand
+  those out to other players as artists. At the same time, one player will have
+  only an "X" written on his card: they are the fake artist!
+
+  Players will then go around the table twice, drawing one contiguous stroke
+  each on a paper to draw the word established by the Question Master, then
+  guess who the fake artist is. If the fake artist is not caught, both the fake
+  artist and the Question Master earn points; if the fake artist is caught and
+  cannot guess what the word is, the artists earn points.
+num_players: 5 to 10 players
+duration: none
+authors: Jun Sasaki, Oink Games
+website: https://boardgamegeek.com/boardgame/135779/fake-artist-goes-new-york
+expansions:
+  - base:
+    name: Base Game
+    categories:
+      - animals:
+        name: Animals
+        items:
+          - Aardvark
+          - Alpaca
+          - Ant
+          - Anteater
+          - Armadillo
+          - Baboon
+          - Badger
+          - Bat
+          - Bear
+          - Beaver
+          - Bee
+          - Bird
+          - Buffalo
+          - Bull
+          - Calf
+          - Camel
+          - Cat
+          - Caterpillar
+          - Catfish
+          - Chameleon
+          - Cheetah
+          - Chicken
+          - Chimpanzee
+          - Chihuahua 
+          - Cicada 
+          - Cockroach
+          - Cow
+          - Crane
+          - Crab
+          - Cricket
+          - Crocodile
+          - Deer
+          - Dinosaur
+          - Dog
+          - Dolphin
+          - Donkey
+          - Duck
+          - Dragonfly
+          - Eagle
+          - Elephant
+          - Firefly
+          - Fish
+          - Flamingo
+          - Fly
+          - Fox
+          - Frog
+          - Giraffe
+          - Goat
+          - Goldfish
+          - Goose
+          - Gorilla
+          - Grasshopper
+          - Hamster
+          - Hippopotamus
+          - Horse
+          - Hyena
+          - Jaguar
+          - Kangaroo
+          - Kitten
+          - Ladybug
+          - Leopard
+          - Lion
+          - Lizard
+          - Llama
+          - Lobster
+          - Mammoth
+          - Monkey
+          - Mosquito
+          - Moose
+          - Mouse
+          - Narwhal
+          - Octopus
+          - Ostrich
+          - Otter
+          - Owl
+          - Oyster
+          - Panda
+          - Pangolin
+          - Parrot
+          - Panther
+          - Peacock
+          - Pelican
+          - Penguin
+          - Pig
+          - Pigeon
+          - Pitbull
+          - Platypus
+          - Porcupine
+          - Poodle
+          - Puppy
+          - Rabbit
+          - Raccoon
+          - Rat
+          - Reindeer
+          - Reptile
+          - Rhinoceros
+          - Rooster
+          - Scorpion
+          - Seagull
+          - Seahorse
+          - Seal
+          - Shark
+          - Sheep
+          - Shrimp
+          - Skunk
+          - Snail
+          - Snake
+          - Spider
+          - Squid
+          - Squirrel
+          - Starfish
+          - Stork
+          - Swan
+          - Tadpole
+          - Tiger
+          - Toad
+          - Tropical fish
+          - Tuna
+          - Turkey
+          - Turtle
+          - Tortoise
+          - Vulture
+          - Walrus
+          - Whale
+          - Wolf
+          - Wombat
+          - Worm
+          - Zebra
+      - family:
+        name: Family
+        items:
+          - Grandma
+          - Grandpa
+          - Husband
+          - Parents
+          - Wife
+          - Uncle
+          - Aunt
+          - Father
+          - Mother
+          - Step sister
+          - Step brother
+          - Step father
+          - Step mother
+          - God father
+          - God mother
+          - Mother in law
+          - Father in law
+          - Children
+          - Brother
+          - Sister
+          - Cousin
+          - Granddaugther
+          - Grandson
+          - Niece
+          - Nephew
+      - festivity:
+        name: Festivity
+        items:
+          - Festivus
+          - Hanukkah
+          - Kwanzaa
+          - Wedding
+          - Birthday
+          - Bar mitzvah
+          - Halloween
+          - Octoberfest
+          - Christmas
+          - Día de Muertos
+          - New year`s eve
+          - Groundhog day
+          - Valentine`s Day
+          - St. Patrick`s Day
+          - Passover
+          - Easter
+          - Ramadan
+          - Mother`s Day
+          - Independence Day
+          - Columbus Day
+          - Divali
+          - Black Friday
+          - Thanks giving
+          - Election
+          - Graduation
+      - valuables:
+        name: Valuables
+        items:
+          - Bracelet
+          - Crystal
+          - Diamond
+          - Emerald
+          - Jewelry
+          - Gold bar
+          - Pearls
+      - social:
+        name: Social
+        items:
+          - Bromance
+          - Follower
+          - Highfive
+          - Marriage
+          - Divorce
+          - Frenemy
+      - games:
+        name: Games
+        items:
+          - Hulahoop
+          - Pinwheel
+          - Swingset
+          - Balloon
+          - Dreidel
+          - Gameboy
+          - Pinball
+          - Checkers
+          - Joystick
+          - Monopoly
+          - Scrabble
+          - Yahtzee
+      - furniture:
+        name: Furniture
+        items:
+          - Chair
+          - Barstool
+          - Bookcase
+          - Waterbed
+          - Bathtub
+          - Bunkbed
+          - Cabinet
+          - Dresser
+          - Bed
+      - tools:
+        name: Tools
+        items:
+          - Chainsaw
+          - Scissors
+          - Tweezers
+          - Compass
+          - Crowbar
+          - Dustpan
+          - Stapler
+      - toiletries:
+        name: Toiletries
+        items:
+          - Lipstick
+          - Perfume
+          - Shampoo
+          - Nailfile
+          - Sunblock
+          - Hairdye
+          - Hairgel
+          - Mascara
+      - computing:
+        name: Computing
+        items:
+          - Computer
+          - Facebook
+          - Firewall
+          - Keyboard
+          - Password
+          - Hashtag
+          - Macbook
+          - Twitter
+      - weapon:
+        name: Weapon
+        items:
+          - Battle Axe
+          - Bayonet
+          - Bazooka
+          - Cannon
+          - Catapult
+          - Crossbow
+          - Dynamite
+          - Handgun
+          - Missile
+          - Shotgun
+          - Sword
+          - Torpedo
+          - Warhammer
+      - accessory:
+        name: Accessory
+        items:
+          - Eyepatch
+          - Headband
+          - Kneepads
+          - Necklace
+          - Nosering
+          - Partyhat
+          - Shoelace
+          - Umbrella
+          - Bandana
+          - Earring
+          - Hairtie
+          - Handbag
+          - Handkerchief
+      - clothing:
+        name: Clothing
+        items:
+          - Chasity Belt
+          - Tophat
+          - Pantsuit
+          - Bandana
+          - Belt
+          - Bikini
+          - Boots
+          - Bowtie
+          - Tophat
+          - Cowboy Hat
+          - Cap
+          - Coat
+          - Dress
+          - Earmuffs
+          - Eyepatch
+          - Glasses
+          - Gloves
+          - Hairtie
+          - Hoodie
+          - Hat
+          - Headband
+          - Jacket
+          - Jeans
+          - Kneepads
+          - Mittens
+          - Necklace
+          - Overalls
+          - Pajamas
+          - Partyhat
+          - Raincoat
+          - Sandals
+          - Scarf
+          - Shirt
+          - Shoes
+          - Skirt
+          - Slippers
+          - Sneakers
+          - Socks
+          - Sombrero
+          - Stockings
+          - Suit
+          - Sweater
+          - Sweatshirt
+          - Swimsuit
+          - T-shirt
+          - Tie
+          - Trousers
+          - Underpants
+      - medical:
+        name: Medical
+        items:
+          - Crutches
+          - Dandruff
+          - Dentures
+          - Firstaid
+          - Headache
+          - Hospital
+          - Insomnia
+          - Medicine
+          - Papercut
+          - Seasick
+          - Sunburn
+          - Vaccine
+          - Vitamin
+      - geography:
+        name: Geography
+        items:
+          - Hongkong
+          - Scotland
+          - America
+          - Atlanta
+          - Bahamas
+          - England
+          - Finland
+          - Florida
+          - Germany
+          - Holland
+          - Ireland
+          - Jamaica
+          - New-york
+          - Orlando
+      - plant:
+        name: Plant
+        items:
+          - Cabbage
+          - Persimmon
+          - Cucumber
+          - Zucchini
+          - Watermelon
+          - Mango
+          - Lemon
+          - Lime
+          - Potato
+          - Cactus
+          - Tomato
+          - Eggplant
+          - Palmtree
+          - Pinecone
+          - Pinetree
+          - Primrose
+          - Oak
+          - Seaweed
+          - Bamboo
+          - Carrot
+          - Celery
+          - Cherry
+          - Garlic
+          - Grapes
+          - Cilantro
+          - Banana
+          - Broccoli
+          - Avocado
+          - Coconut
+          - Peaches
+          - Spinach
+          - Pineapple
+          - Wheat
+          - Orange
+      - anatomy:
+        name: Anatomy
+        items:
+          - Backbone
+          - Forehead
+          - Mustache
+          - Nosehair
+          - Shoulder
+          - Skeleton
+          - Tentacle
+          - Whiskers
+          - Eyeball
+          - Eyebrow
+          - Eyelash
+          - Kneecap
+          - Knuckle
+          - Stomach
+          - Unibrow
+      - location:
+        name: Location
+        items:
+          - Airport
+          - Apartment Building
+          - Bank
+          - Barber Shop
+          - Bar
+          - Barn
+          - Beach
+          - Book Store
+          - Bowling Alley
+          - Bus Stop
+          - Casino
+          - Cathedral
+          - Castle
+          - Cemetery
+          - Church
+          - Circus
+          - Convenience Store
+          - Courthouse
+          - Desert
+          - Department Store
+          - Disco
+          - Dungeon
+          - Fire Station
+          - Garden
+          - Gas Station
+          - Golf Course
+          - Hospital
+          - House
+          - Library
+          - Lighthouse
+          - Mansion
+          - Mall
+          - Movie Theater
+          - Museum
+          - Office Building
+          - Opera House
+          - Orchard
+          - Palace
+          - Petshop
+          - Police Station
+          - Post Office
+          - Prison
+          - Pub
+          - Restaurant
+          - Safari
+          - Saw Mill
+          - School
+          - Skyscraper
+          - Supermarket
+          - Swimming Pool
+          - Temple
+          - Train Station
+          - Theater
+          - Theme Park
+          - Vet Clinic
+          - Zoo
+      - transportation:
+        name: Transportation
+        items:
+          - Airplane
+          - Bicycle
+          - Bus
+          - Boat
+          - Dog Sled
+          - Double Decker bus
+          - F-16
+          - Forklift
+          - Formula One
+          - Golf Cart
+          - Helicopter
+          - Hoverboard
+          - Ice Cream Truck
+          - Jeep
+          - Minivan
+          - Ocean Liner
+          - Rickshaw
+          - Rocketship
+          - Rowboat
+          - Sail Soat
+          - Scooter
+          - Shuttle
+          - Spaceship
+          - Sports Car
+          - Stagecoach
+          - Steam Boat
+          - Submarine
+          - Tractor
+          - Train
+          - Tram
+          - Tow Truck
+          - Tricycle
+          - Tugboat
+          - Unicycle
+          - Yacht
+          - Zeppelin
+      - music_genre:
+        name: Music Genre
+        items:
+          - Dubstep
+          - House
+          - Rock
+          - Hip Hop
+          - Blues
+          - Pop
+          - Jazz
+          - Classical
+          - R&B
+          - Heavy Metal
+          - Punk
+          - Country
+          - Reggae
+          - Elevator Music
+          - Disco
+          - Techno
+          - J-Pop
+          - Grunge
+          - Rap
+          - Swing
+      - musical_instrument:
+        name: Musical Instrument
+        items:
+          - Bagpipes
+          - Bass Guitar
+          - Jukebox
+          - Trombone
+          - Drums
+          - Ukulele
+          - Electric Guitar
+          - Piano
+          - Violin
+          - Saxophone
+          - Cello
+          - Flute
+          - Clarinet
+          - Trumpet
+          - Harmonica
+          - Harp
+          - Banjo
+          - Castanets
+          - Kazoo
+          - Cowbell
+          - Cymbal
+          - Gong
+          - Maraca
+          - Marimba
+          - Tambourine
+          - Triangle
+          - Washboard
+          - Xylophone
+          - Accordion
+          - Horn
+          - Bugle
+          - Didgeridoo
+          - Oboe
+          - Ocarina
+          - Piccolo
+          - Whistle
+          - Tuba
+          - Sitar
+          - Fiddle
+          - Lute
+      - mythology:
+        name: Mythology
+        items:
+          - Genie
+          - Minotaur
+          - Magic Carpet
+          - Griffin
+          - Minotaur
+          - Bigfoot
+          - Chimera
+          - Cyclop
+          - Centaur
+          - Mermaid
+          - Pegasus
+          - Phoenix
+          - Unicorn
+          - Vampire
+          - Dragon
+          - Dryad
+          - Ghost
+          - Medusa
+          - Manticore
+          - Satyr
+          - Sphinx
+          - Werewolf
+          - Zombie
+          - Mummy
+          - Golem
+          - Amazon Warrior
+          - Lizard People
+          - Basilisk
+          - Goblin
+          - Fairy
+          - Ghoul
+          - Imp
+          - Troll
+          - Ogre
+          - Nymph
+          - Giant
+          - Elf
+      - sports:
+        name: Sports
+        items:
+          - Archery
+          - Baseball
+          - Basketball
+          - Bowling
+          - Boxing
+          - Curling
+          - Cricket
+          - Dumbbell
+          - Fencing
+          - Fishing
+          - Football
+          - Frisbee
+          - Goal post
+          - Golf
+          - Half pipe
+          - Handball
+          - Homerun
+          - Iceskate
+          - Javelin
+          - Jumprope
+          - Lacrosse
+          - Longjump
+          - Minigolf
+          - Netball
+          - Olympics
+          - Pingpong
+          - Rebound
+          - Referee
+          - Rock climbing
+          - Slamdunk
+          - Sledding
+          - Soccer
+          - Surfing
+          - Swimming
+          - Tennis
+          - Volleyball
+      - pop_culture:
+        name: Pop Culture
+        items:
+          - Autobots
+          - Catwoman
+          - Garfield
+          - Iron chef
+          - Splinter
+          - Superman
+          - Aladdin
+          - Aquaman
+          - Asterix
+          - Hawkeye
+          - Metroid
+          - Pikachu
+          - Riddler
+          - Rugrats
+          - Twoface
+          - Avatar
+          - Barbie
+          - Batman
+          - Beavis
+          - Bowser
+          - Legend of Zelda
+          - Mickey Mouse
+          - Voldemort
+          - Conan the Barbarian
+          - The Simpsons
+          - Rick & Morty
+          - Kermit
+          - Spongebob
+          - Simba
+          - Scooby Doo
+      - profession:
+        name: Profession
+        items:
+          - Artist
+          - Assassin
+          - Barber
+          - Butcher
+          - Captain
+          - Cashier
+          - Chef
+          - Clown
+          - Cook
+          - Cowboy
+          - Cowgirl
+          - Dentist
+          - DJ
+          - Doctor
+          - Drummer
+          - Farmer
+          - Firefighter
+          - Hacker
+          - Gangster
+          - Gardener
+          - Gymnast
+          - Janitor
+          - Lawyer
+          - Magician
+          - Mailman
+          - Milkman
+          - Movie Director
+          - Opera Singer
+          - Painter
+          - Pilot
+          - Plumber
+          - Policeman
+          - Poolboy
+          - Priest
+          - Princess
+          - Sheriff
+          - Soldier
+          - Surgeon
+          - Teacher
+          - Teacher
+          - Waiter
+          - Warrior
+          - Window cleaner 
+          - Wrestler
+      - food:
+        name: Food
+        items:
+          - Bacon
+          - Baguette
+          - Barbeque
+          - Beans
+          - Beer
+          - Burrito
+          - Cake
+          - Cereal
+          - Champagne
+          - Cheese
+          - Chicken Wings
+          - Coffee
+          - Corndog
+          - Croissant
+          - Cupcake
+          - Eggroll
+          - Espresso
+          - Fast Food
+          - Fish and Chips
+          - Frosting
+          - Hamburger
+          - Hambone
+          - Hamwich
+          - Hot sauce
+          - Junk Food
+          - Kebab
+          - Ketchup
+          - Lasagna
+          - Lemonade
+          - Macaroni
+          - Martini
+          - Mashed Potatoes
+          - Meatballs
+          - Milk
+          - Mushroom
+          - Mustard
+          - Noodles
+          - Oatmeal
+          - Pancake
+          - Pasta
+          - Pie
+          - Pizza
+          - Popcorn
+          - Pretzel
+          - Pumpkin
+          - Salad
+          - Sandwich
+          - Sausage
+          - SeaFood
+          - Smoothie
+          - Snowcone
+          - Soy Sauce
+          - Sushi
+          - Tea
+          - Tequila
+          - Waffles
+          - Whiskey
+      - film_genres:
+        name: Film Genres
+        items:
+          - Horror
+          - Action
+          - Thriller
+          - Sci-Fi
+          - Rom-Com
+          - Western
+          - Comedy
+          - Gangster
+          - Slapstick
+          - War
+          - Documentry
+          - Mockumentry
+          - Musical
+          - Animation
+          - Disasters
+          - Zombies
+          - Sport
+      - movies:
+        name: Movies
+        items:
+          - A Clockwork Orange
+          - Armagedon
+          - Alien
+          - Austin Powers
+          - Avengers
+          - Back to the Future
+          - Braveheart
+          - Beetlejuice
+          - Die Hard
+          - E.T.
+          - Fargo
+          - Finding Nemo
+          - Forrest Gump
+          - Frozen
+          - Gladiator
+          - Golden Eye
+          - Gone with The Wind
+          - Groundhog Day
+          - Home Alone
+          - Inception
+          - Indiana Jones
+          - Inglourious Basterds
+          - Jaws
+          - Jurassic Park
+          - King Kong
+          - Lion King
+          - Mary Poppins
+          - Minority Report
+          - Mission Impossible
+          - Monty Python and the Holy Grail
+          - Princess Bride
+          - Pulp Fiction
+          - Rocky Horror Picture Show
+          - Rocky
+          - Saving Private Ryan
+          - Scarface
+          - Shrek
+          - Star Wars
+          - Terminator
+          - The Good, the Bad and the Ugly
+          - The Green Mile
+          - The Lord Of the Rings
+          - The Matrix
+          - The Shawshank Redemption
+          - The Social Network
+          - The Wizard of Oz
+          - Titanic
+          - Toy Story
+          - West Side Story
+          - Wonder Woman
+          - X-Men
+          - Robocop
+      - snacks:
+        name: Snacks
+        items:
+          - Sour Candy
+          - Twinkie
+          - Lollipop
+          - Popsicle
+          - Skittles
+          - Brownie
+          - Cookie
+          - Doritos
+          - Sour Candy
+          - Icecream
+      - landmarks:
+        name: Landmarks
+        items:
+          - The Pyramids
+          - Christ the Redeemer statue
+          - The Great Chinese Wall
+          - Leaning Tower of Pisa
+          - Empire State Building
+          - Colosseum
+          - The Eiffel Tower
+          - Statue of Liberty
+          - The Sphinx
+          - The Little Mermaid
+          - The Taj Mahal
+          - Big Ben
+          - Loch Ness
+          - Brandenburg Gate
+          - Acropolis
+          - Stonehenge
+          - Easter Island
+          - Capitol Hill
+          - Niagra Falls
+          - Mount Rushmore
+          - Grand Canyon
+          - Fontana de Trevi
+          - Sydney Opera House
+          - Golden Gate Bridge 
+          - The Forbidden City
+          - The Kremlin
+          - The Louvre 
+          - The Hollywood Sign 
+      - fairytale:
+        name: Fairytale
+        items:
+          - Cinderella
+          - The Three Little Pigs
+          - The Ugly Duckling
+          - The Tin Soldier
+          - The Tinderbox
+          - The Princess and the Pea
+          - Thumbelina
+          - The Little Mermaid
+          - Thumbelina
+          - The Steadfast Tin Soldier
+          - The Emperor's New Clothes
+          - Goldilocks and the Three Bears
+          - Thumbelina
+          - Sleeping Beauty
+          - Snow White
+          - Rapunzel
+          - The Frog Prince
+          - Hansel and Gretel
+          - The Golden Fish
+          - Rumpelstiltskin
+          - The Golden Goose
+          - Puss in Boots
+          - Aladdin
+          - Beauty and the Beast
+          - Ali Baba and the Forty Thieves
+          - Sinbad
+          - The Fisherman and the Jinni
