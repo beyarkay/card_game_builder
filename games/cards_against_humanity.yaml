@@ -1,0 +1,35 @@
+name: Cards Against Humanity
+version: 0.1.0
+instructions: 
+num_players: none
+duration: none
+authors: Boyd Kane
+website: none
+expansions:
+  - my_expansion_name_1:
+    name: My Expansion Name 1
+    categories:
+      - my_category_name_1:
+        name: My Category Name 1
+        items:
+          - Item Number 1
+          - Item Number 2
+          - Item Number 3
+  - my_expansion_name_2:
+    name: My Expansion Name 2
+    categories:
+      - my_category_name_2:
+        name: My Category Name 2
+        items:
+          - Item Number 1
+          - Item Number 2
+          - Item Number 3
+  - my_expansion_name_3:
+    name: My Expansion Name 3
+    categories:
+      - my_category_name_3:
+        name: My Category Name 3
+        items:
+          - Item Number 1
+          - Item Number 2
+          - Item Number 3
