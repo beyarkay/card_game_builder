@@ -1,0 +1,78 @@
+name: Most of These People are Lying
+version: 0.1.0
+instructions: 
+num_players: 4 or more
+duration: About 20 minutes per round
+authors: Tom Scott and The Technical Difficulties
+website: https://www.youtube.com/watch?v=3UAOs9B9UH8
+expansions:
+  - techdiff:
+    name: Tech Diff Originals
+    categories:
+      - cards:
+        name: cards
+        items:
+          - Kebakko
+          - Lentokenttä
+          - Johnstone's Robin 
+          - Ageratina Occidentalis
+          - Duryard 
+          - Willoughby Run
+          - Chert
+          - Ghost Festival
+          - 1878 North Lancashire By-Election
+          - Evangelia Psarra
+          - Green Monster
+  - base:
+    name: Base
+    categories:
+      - cards:
+        name: cards
+        items:
+          - Frank Mycroft
+          - Isaac Rojas
+          - Ivan Rebroff
+          - Santuari de Bellmunt
+          - Mahia (drink)
+          - Actinopterygii
+          - Manfred Schnelldorfer
+          - Andrés Novales
+          - Denton with Wootton
+          - Hurlothrumbo
+          - Underneath.com
+          - New England Oaks
+          - The Marvellous Boy
+          - Hurricane Rick (1985)
+          - Bailey Hills
+          - Björn Bach
+          - Bei Cun
+          - Casting at the World Games
+          - Andrew Ness
+          - Verige bridge
+          - Tuña
+          - SMERSH
+          - Mansfield Smith-Cumming
+          - Vernon Kell
+          - Theodore Alvin Hall
+          - John Anthony Walker
+          - Anophthalmus hitleri
+          - GoldenPalace.com Monkey
+          - Mini (frog)
+          - Harryplax
+          - Aeroflot Flight 593
+          - Olympic oaks
+          - Chudnovsky brothers
+          - Elvis operator
+          - Evil bit
+          - Lena Forsén
+          - William Utermohlen
+          - On the Art of the Cinema
+          - Kanamara Matsuri
+          - Fugging, Upper Austria
+          - ISO 3103
+          - Vinkensport
+          - 1956 Olympic flame hoax
+          - Taro Tsujimoto
+          - Antanas Mockus
+          - 1933 double eagle
+          - Acoustic Kitty
