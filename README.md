@@ -1,5 +1,5 @@
 # Card Game Builder
-(Lewd language warning)
+(There may be some rude language in the game files)
 
 ## Quickstart
 Go to the 
@@ -269,6 +269,8 @@ Features, bug fixes, and improvements are also welcome!
 - Expand out the existing card games
 - (Life Boat)[https://boardgamegeek.com/boardgame/4174/lifeboat]
 - (Spy Fall)[https://boardgamegeek.com/boardgame/166384/spyfall]
+- Check out the games available
+  (here)[https://spyfall.tannerkrewson.com/more-games]
 
 ## Future code ideas
 
