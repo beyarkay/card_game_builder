@@ -1,0 +1,77 @@
+name: Fear Pong
+version: 0.1.0
+instructions: 
+num_players: 4 or more
+duration: 30 minutes
+authors: ???
+website: ???
+expansions:
+  - base:
+    name: Base game
+    categories:
+      - default:
+        name: default
+        items:
+          - Freestyle about the opposing team for 1 minute
+          - Switch clothes with someone on the opposing team for the rest of the game
+          - Let one of your opponents draw whatever they want on your face
+          - Let the opposing team draw on your lower back with a sharpie
+          - Lick, from heel to toe, the foot of one of the opposing team.
+          - Take off an opposing team member's sock with only your teeth
+          - Eat a banana with the skin on it
+          - Imitate someone in the room. If nobody can guess who it is, take a shot
+          - Apply lipstick/chapstick to a member of the opposing team using your teeth
+          - Smell the feet of everyone in the room and rank them from best to worst
+          - Bend at the waist so that you are looking behind you between your
+            legs. Now run backwards until you can tag someone with your butt.
+          - Fill your mouth with water, and each person in the group must tell
+            the funniest joke they know. If you spit up the water, you have to
+            take a shot
+          - Tie together your ankle and the ankle of someone you nominate
+          - Brush the teeth of someone in the room (your choice)
+          - Take off the pants of one of your opponents with your teeth, they keep it off for game (your choice)
+          - Put a cookie on your forehead and try to eat it without using your
+            hands. If you fail, take a shot
+          - Stand on one leg for the next three rounds
+          - For the next 2 rounds, you must do whatever the person to your right says
+          - Try to eat a food item of the opposing team's choice without using your hands
+          - Everything you say for the rest of the game has to rhyme
+          - Fill a cup with a little bit of water and balance it on your head
+            for 2 turns, if the cup falls the opposing team gets to choose a
+            punishment
+          - Eat a piece of dog food
+          - Let the opposing team draw something on you
+          - Let the opposing team style your hair however they like it
+          - Try to sing the national anthem. If you miss a word/mess up take a shot and drink the cup
+          - Put an ice cube down your pants/shirt and keep it there until it melts
+          - Let a member of the opposing team spank you (they choose which team member)
+          - Try to pick up a member of your team and carry them across the room, if can't, take a shot
+          - Let the opposing team splash a drink in your face
+          - Lick the side of your partners face
+          - Say the alphabet backwards. If you mess up, take a shot
+          - Have the opposing team administer a typical field sobriety test to
+            you (walk in a line and turn, one leg stand, count backwards, etc)
+            if you fail, take a shot
+          - Blow a raspberry on the stomach of one of your team mates
+          - Eat a piece of food off of your partner's face without using your hands
+          - You and a member of the opposing team have to stare at each other for 2 minutes, if you laugh you drink
+          - Body shot off opponent
+          - Take a shot
+  - saucy:
+    name: Saucy things
+    categories:
+      - default:
+        name: default
+        items:
+          - Wear your pants down to your ankles for the next 2 turns
+          - One round spin the bottle, whoever it lands on you have to kiss
+          - Wear your underwear on your head for the rest of the game
+          - The opposing team picks someone for you to kiss, first to back out has to drink the cup
+          - Kiss someone on the lips
+          - Take off one item of clothing
+          - Act out your favorite sex position with someone in the room (your opponent's choice)
+          - Poll the room asking whether or not you're a top or bottom
+          - Each team-mate gives you a hickey on the neck
+          - Touch tongues with a person of the opposing team's choice
+          - Kiss a player in the room of the opposing team's
+          - The opposing team picks 3 people in the room, Marry-Fuck-Kill them
