@@ -1,15 +1,14 @@
 name: Fake Artist goes to New York
 version: 0.1.0
-instructions: Players take turns being the Question Master, whose role is to
+instructions: "Players take turns being the Question Master, whose role is to
   set a category, write a word within that category on dry erase cards, and hand
   those out to other players as artists. At the same time, one player will have
-  only an "X" written on his card: they are the fake artist!
-
+  only an X written on his card: they are the fake artist!
   Players will then go around the table twice, drawing one contiguous stroke
   each on a paper to draw the word established by the Question Master, then
   guess who the fake artist is. If the fake artist is not caught, both the fake
   artist and the Question Master earn points; if the fake artist is caught and
-  cannot guess what the word is, the artists earn points.
+  cannot guess what the word is, the artists earn points."
 num_players: 5 to 10 players
 duration: none
 authors: Jun Sasaki, Oink Games
