@@ -1,6 +1,6 @@
 name: No Thanks!
 version: 0.1.0
-instructions: Take a card or pay one chip as you try to avoid points. If you
+instructions: "Take a card or pay one chip as you try to avoid points. If you
   take the card you get its points, but points are bad. But you also get the
   chips that others have played to avoid taking the card, and that’s good (each
   chip cancels out one point). And there's one more twist: If you collect cards
@@ -9,7 +9,7 @@ instructions: Take a card or pay one chip as you try to avoid points. If you
   card’s all yours. You'll also need 55 counters. Shuffle the cards and put 9
   back in the box, these won't be used. For 3-5 players, give 11 counters
   each. For 6 players, give 9 counters each. For 7 players, give 7 counters
-  each. You're allowed to hide your counters.
+  each. You're allowed to hide your counters."
 num_players: 3 to 7
 duration: 15 minutes
 authors: Boyd Kane
