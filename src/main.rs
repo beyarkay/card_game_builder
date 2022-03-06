@@ -5,7 +5,6 @@ use std::fs::File;
 use std::io::Write;
 use std::env;
 
-
 fn main() {
     let args: Vec<String> = env::args().collect();
     let filename: String;
@@ -19,7 +18,7 @@ fn main() {
     let game: Game = serde_yaml::from_reader(f).expect("Could not read values.");
     // Create one PDF per expansion
     for expansion in game.expansions {
-        println!("Writing expansion '{}'", expansion.name);
+        println!("Writing expansion '{}'...", expansion.name);
         let mut pdf = format!("\\documentclass[playing_cards, grid, fronts]{{flashcards}}\n\
                               \\cardbackstyle{{empty}}\n\
                               \\cardfrontstyle[\\LARGE]{{headings}}\n\
@@ -39,25 +38,33 @@ fn main() {
         let filename = format!("tex/{}: {}.tex", game.name, expansion.name);
         let mut output = File::create(filename.as_str()).expect("File could not be created");
         write!(output, "{}", pdf).expect("File could not be written to");
+        println!("Expansion {} successfully written as {}, converting to pdf", expansion.name, filename);
         // Now write the tex file to pdf
         if cfg!(target_os = "windows") {
             println!("Sorry, I don't know how to convert .tex files to .pdf files on windows");
         } else {
-            let _out = Command::new("sh").arg("-c")
+            let _out = Command::new("sh")
+                .arg("-c")
                 .arg(format!("pdflatex --output-dir=pdfs {}", filename.replace(" ", "\\ ")))
-                .output() // Output is smothered
+                .output()
                 .expect("Failed to compile pdf");
+            // io::stdout().write_all(&out.stdout).unwrap();
+
             // also clean up the LaTeX build files
-            let _cleanup = Command::new("sh").arg("-c")
-                .arg("rm pdfs/*.out pdfs/*.aux pdfs/*.log tex/*.tex")
-                .output() // Output is smothered
-                .expect("Failed to clean up LaTeX files");
-            //println!("{}", String::from_utf8_lossy(&out.stdout));
+           let _cleanup = Command::new("sh")
+               .arg("-c")
+               .arg("rm pdfs/*.out pdfs/*.aux pdfs/*.log")
+               .output() // Output is smothered
+               .expect("Failed to clean up LaTeX files");
         }
     }
 }
 fn escape_latex(s: &str) -> String {
-    return s.replace("_", "\\_");
+    return s.replace("_", "\\_")
+            .replace("^", "\\^")
+            .replace("&", "\\&")
+            .replace("$", "\\$")
+            .replace("%", "\\%");
 }
 
 #[derive(Debug, Serialize, Deserialize)]
