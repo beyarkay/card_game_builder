@@ -57,8 +57,6 @@ Most of these People are Lying:
 
 ## How to print the files and start playing
 
-[release page](https://github.com/beyarkay/card_game_builder/releases/tag/latest)
-
 First you'll need to download the PDF files. You can easily do this by going to
 the [release
 page](https://github.com/beyarkay/card_game_builder/releases/tag/latest) and
