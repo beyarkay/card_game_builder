@@ -1,13 +1,14 @@
 use serde::{Deserialize, Serialize};
 use serde_yaml;
-use std::env;
+use std::{env, io};
 use std::fs::File;
 use std::io::Write;
 use std::process::Command;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    for filename in args.iter().skip(1) {
+    for (i, filename) in args.iter().skip(1).enumerate() {
+        println!("[{}/{}] Processing {}", i+1, args.len() - 1, filename);
         process_file(filename.to_string());
     }
 }
@@ -44,14 +45,14 @@ fn process_file(filename: String) {
         let mut output = File::create(filename.as_str()).expect("File could not be created");
         write!(output, "{}", pdf).expect("File could not be written to");
         println!(
-            "Expansion {} successfully written as {}, converting to pdf",
+            "Expansion {} successfully written as {}",
             expansion.name, filename
         );
         // Now write the tex file to pdf
         if cfg!(target_os = "windows") {
             println!("Sorry, I don't know how to convert .tex files to .pdf files on windows");
         } else {
-            let _out = Command::new("sh")
+            let out = Command::new("sh")
                 .arg("-c")
                 .arg(format!(
                     "pdflatex --output-dir=pdfs {}",
@@ -59,7 +60,8 @@ fn process_file(filename: String) {
                 ))
                 .output()
                 .expect("Failed to compile pdf");
-            // io::stdout().write_all(&out.stdout).unwrap();
+            io::stdout().write_all(&out.stdout).unwrap();
+            io::stdout().write_all(&out.stderr).unwrap();
 
             // also clean up the LaTeX build files
             let _cleanup = Command::new("sh")
