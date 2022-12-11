@@ -29,6 +29,11 @@ jobs:
           target/
         key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
+    - name: Install pdflatex
+      run: sudo apt install pdflatex
+      shell: sh
+
+
     - name: Cargo build
       uses: actions-rs/cargo@v1
       with:
