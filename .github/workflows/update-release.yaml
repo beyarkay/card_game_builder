@@ -5,6 +5,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'games/*.yaml'
+      - '.github/workflows/update-release.yaml'
       - 'src/*.rs'
   workflow_dispatch:
 env:
@@ -26,6 +27,7 @@ jobs:
           ~/.cargo/registry/index/
           ~/.cargo/registry/cache/
           ~/.cargo/git/db/
+          /usr/bin/pdflatex
           target/
         key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
