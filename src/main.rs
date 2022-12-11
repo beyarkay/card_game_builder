@@ -41,7 +41,7 @@ fn process_file(filename: String) {
             }
         }
         pdf.push_str("\n\\end{document}\n");
-        let filename = format!("tex/{}: {}.tex", game.name, expansion.name);
+        let filename = format!("tex/{}_{}.tex", game.name, expansion.name).replace(" ", "_");
         let mut output = File::create(filename.as_str()).expect("File could not be created");
         write!(output, "{}", pdf).expect("File could not be written to");
         println!(
@@ -56,7 +56,7 @@ fn process_file(filename: String) {
                 .arg("-c")
                 .arg(format!(
                     "pdflatex --output-dir=pdfs {}",
-                    filename.replace(" ", "\\ ")
+                    filename.replace(" ", "-")
                 ))
                 .output()
                 .expect("Failed to compile pdf");
