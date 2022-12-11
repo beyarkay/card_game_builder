@@ -39,7 +39,11 @@ jobs:
       uses: actions-rs/cargo@v1
       with:
         command: run
-        args: --release
+        args: --release games/*.yaml
+
+    - name: List all games to GH variable
+      run: echo "::set-output name=LS_GAMES::$(ls games/* | xargs echo | sed 's/ /,/g')"
+      id: LS-CALENDARS
 
     - name: Update latest release with new games
       uses: beyarkay/update-existing-release@master
@@ -49,5 +53,5 @@ jobs:
         updateTag: true
         tag: latest
         replace: true
-        files: pdfs/*
+        files: ${{ steps.LS-CALENDARS.outputs.LS_CALENDARS }}
         body: "This release contains the latest card games as PDF files"
