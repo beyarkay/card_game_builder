@@ -1,5 +1,5 @@
 use serde::{Deserialize, Serialize};
-use serde_yaml::{self};
+use serde_yaml;
 use std::env;
 use std::fs::File;
 use std::io::Write;
@@ -7,13 +7,12 @@ use std::process::Command;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let filename: String;
-    if args.len() != 2 {
-        println!("Using `games/red_flags.yaml` as default gamefile.");
-        filename = "games/red_flags.yaml".to_string();
-    } else {
-        filename = format!("{}", args[1]);
+    for filename in args.iter().skip(1) {
+        process_file(filename.to_string());
     }
+}
+
+fn process_file(filename: String) {
     let f = std::fs::File::open(filename).expect("Could not open file.");
     let game: Game = serde_yaml::from_reader(f).expect("Could not read values.");
     // Create one PDF per expansion
@@ -71,6 +70,7 @@ fn main() {
         }
     }
 }
+
 fn escape_latex(s: &str) -> String {
     return s
         .replace("_", "\\_")
