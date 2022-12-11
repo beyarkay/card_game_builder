@@ -50,7 +50,7 @@ jobs:
       shell: sh
 
     - name: List all games to GH variable
-      run: echo "::set-output name=LS_GAMES::$(ls pdfs | xargs echo | sed 's/.pdf/.pdf,/g')"
+      run: echo "::set-output name=LS_GAMES::$(ls pdfs/* | xargs echo | sed 's/.pdf /.pdf, /g')"
       id: LS-GAMES
 
     - name: Check the listed games
