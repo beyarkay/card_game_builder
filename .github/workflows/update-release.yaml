@@ -41,7 +41,7 @@ jobs:
 
     - name: List all games to GH variable
       run: echo "::set-output name=LS_GAMES::$(ls games/* | xargs echo | sed 's/ /,/g')"
-      id: LS-CALENDARS
+      id: LS-GAMES
 
     - name: Update latest release with new games
       uses: beyarkay/update-existing-release@master
@@ -51,5 +51,5 @@ jobs:
         updateTag: true
         tag: latest
         replace: true
-        files: ${{ steps.LS-CALENDARS.outputs.LS_CALENDARS }}
+        files: ${{ steps.LS-GAMES.outputs.LS_GAMES }}
         body: "This release contains the latest card games as PDF files"
