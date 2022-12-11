@@ -1,0 +1,53 @@
+name: Build game PDFs
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'games/*.yaml'
+      - 'src/*.rs'
+  workflow_dispatch:
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build-calendars:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cargo/bin/
+          ~/.cargo/registry/index/
+          ~/.cargo/registry/cache/
+          ~/.cargo/git/db/
+          target/
+        key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
+    - name: Cargo build
+      uses: actions-rs/cargo@v1
+      with:
+        command: build
+        args: --release
+
+    - name: Cargo run
+      uses: actions-rs/cargo@v1
+      with:
+        command: run
+        args: --release
+
+    - name: Update latest release with new games
+      uses: beyarkay/update-existing-release@master
+      with:
+        token: ${{ github.token }}
+        release: Latest card game PDFs
+        updateTag: true
+        tag: latest
+        replace: true
+        files: pdfs/*
+        body: "This release contains the latest card games as PDF files"
