@@ -36,10 +36,8 @@ jobs:
         args: --release
 
     - name: Cargo run
-      uses: actions-rs/cargo@v1
-      with:
-        command: run
-        args: --release games/*.yaml
+      run: cargo run --release games/*.yaml
+      shell: sh
 
     - name: List all games to GH variable
       run: echo "::set-output name=LS_GAMES::$(ls games/* | xargs echo | sed 's/ /,/g')"
