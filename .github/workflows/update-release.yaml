@@ -44,24 +44,11 @@ jobs:
       run: cargo run --release games/*.yaml
       shell: sh
 
-    - name: ls dot
-      run: ls .
-      shell: sh
-
-    - run: ls pdfs
-      shell: sh
-
-    - run: ls pdfs | xargs echo
-      shell: sh
-
-    - run: ls pdfs | xargs echo | sed 's/.pdf/.pdf,/g'
-      shell: sh
-
-    - run: ls pdfs | xargs echo | sed 's/.pdf/.pdf,/g' | sed 's/ /\\ /g'
+    - run: which pdflatex
       shell: sh
 
     - name: List all games to GH variable
-      run: echo "::set-output name=LS_GAMES::$(ls pdfs | xargs echo | sed 's/.pdf/.pdf,/g' | sed 's/ /\\ /g')"
+      run: echo "::set-output name=LS_GAMES::$(ls pdfs | xargs echo | sed 's/.pdf/.pdf,/g')"
       id: LS-GAMES
 
     - name: Check the listed games
