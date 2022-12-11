@@ -1,6 +1,7 @@
 .DS_Store
 *.tex
 **/*.tex
+**/*.pdf
 **/*.log
 **/*.aux
 /target
