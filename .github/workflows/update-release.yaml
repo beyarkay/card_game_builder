@@ -36,12 +36,16 @@ jobs:
         args: --release
 
     - name: Cargo run
-      run: cargo run --release games/*.yaml && ls . && ls pdfs
+      run: cargo run --release games/*.yaml
       shell: sh
 
     - name: List all games to GH variable
       run: echo "::set-output name=LS_GAMES::$(ls pdfs | xargs echo | sed 's/ /,/g')"
       id: LS-GAMES
+
+    - name: Check the listed games
+      run: echo ${{ steps.LS-GAMES.outputs.LS_GAMES }}
+      shell: sh
 
     - name: Update latest release with new games
       uses: beyarkay/update-existing-release@master
