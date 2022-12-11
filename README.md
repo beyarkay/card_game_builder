@@ -2,14 +2,20 @@
 (There may be some rude language in the game files)
 
 ## Quickstart
-Go to the 
-[`pdfs/`](https://github.com/beyarkay/card_game_builder/tree/main/pdfs) 
-folder and download the card games you want. The instructions for each game
+
+Go to the [release
+page](https://github.com/beyarkay/card_game_builder/releases/tag/latest) and
+download the PDFs for the card games you want. The instructions for each game
 are on the first page of the pdf. Currently, the card games available are:
 
 - Cards Against Humanity
 - Chameleon
+- Code Names
+- Dont Get Got
 - Fake Artist Goes To NYC
+- Fear Pong
+- Get Legless
+- Insider
 - Most Of These People Are Lying
 - No Thanks
 - Paranoia
@@ -19,10 +25,10 @@ are on the first page of the pdf. Currently, the card games available are:
 ### Convert card game ideas into printable PDFs you can cut out! 
 
 Lots of card games boil down to basically just a load of creative prompts on
-cardboard which you. Think 
-[Cards Against Humanities](https://www.cardsagainsthumanity.com/#downloads), 
-[Red Flags](https://www.timelessboardgames.co.za/boardgames/red-flags-main-game/1985),
-[Chameleon](https://bigpotato.com/products/the-chameleon), etc
+cardboard which you. Think [Cards Against
+Humanities](https://www.cardsagainsthumanity.com/#downloads), [Red
+Flags](https://www.timelessboardgames.co.za/boardgames/red-flags-main-game/1985),
+[Chameleon](https://bigpotato.com/products/the-chameleon), etc.
 
 This project aims to make it simple to create your own card games by writing up
 your prompts in a file. The Rust program will then convert that file to a PDF
@@ -30,7 +36,7 @@ with nicely formatted cards which you can print off, cut out, and then play
 with.
 
 ### Examples
-Red Flags (see [`pdfs/red_flags.pdf`](https://github.com/beyarkay/card_game_builder/tree/main/pdfs/red_flags.pdf)) for the full pdf):
+Red Flags (see [`Red_Flags_Basics.pdf`](https://github.com/beyarkay/card_game_builder/releases/download/latest/Red_Flags_Basics.pdf)) for the full pdf):
 
 ![](img/red_flags_example.png)
 
@@ -51,8 +57,11 @@ Most of these People are Lying:
 
 ## How to print the files and start playing
 
+[release page](https://github.com/beyarkay/card_game_builder/releases/tag/latest)
+
 First you'll need to download the PDF files. You can easily do this by going to
-[`pdfs/`](https://github.com/beyarkay/card_game_builder/tree/main/pdfs) and
+the [release
+page](https://github.com/beyarkay/card_game_builder/releases/tag/latest) and
 downloading the games you're interested in. Instructions and game information
 are all on the first page of the pdf.  
 
@@ -81,12 +90,12 @@ code:
 ### Installation
 
 Assuming you've [installed git](https://git-scm.com/downloads) and have also
-[installed rust](https://www.rust-lang.org/tools/install), simply `git clone`
-and then `cargo run`:
+[installed rust](https://www.rust-lang.org/tools/install), and LaTeX, simply
+`git clone` and then `cargo run`:
 
 1. `git clone https://github.com/beyarkay/card_game_builder.git`
 2. `cd card_game_builder`
-3. `cargo run`
+3. `cargo run --release`
 
 
 ### Defining your own game as a `YAML` file
