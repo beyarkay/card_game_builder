@@ -1,5 +1,5 @@
 use serde::{Deserialize, Serialize};
-
+use std::fs;
 use std::fs::File;
 use std::io::Write;
 use std::process::Command;
@@ -7,6 +7,9 @@ use std::{env, io};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
+    if args.is_empty() {
+        panic!("No arguments provided. Usage: `cargo run --release games/*.yaml`")
+    }
     for (i, filename) in args.iter().skip(1).enumerate() {
         println!("[{}/{}] Processing {}", i + 1, args.len() - 1, filename);
         process_file(filename.to_string());
@@ -41,6 +44,7 @@ fn process_file(filename: String) {
             }
         }
         pdf.push_str("\n\\end{document}\n");
+        fs::create_dir_all("tex").unwrap();
         let filename = format!("tex/{}_{}.tex", game.name, expansion.name).replace(' ', "_");
         let mut output = File::create(filename.as_str()).expect("File could not be created");
         write!(output, "{}", pdf).expect("File could not be written to");
@@ -52,6 +56,7 @@ fn process_file(filename: String) {
         if cfg!(target_os = "windows") {
             println!("Sorry, I don't know how to convert .tex files to .pdf files on windows");
         } else {
+            fs::create_dir_all("pdfs").unwrap();
             let out = Command::new("sh")
                 .arg("-c")
                 .arg(format!(
