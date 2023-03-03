@@ -1,14 +1,14 @@
 use serde::{Deserialize, Serialize};
-use serde_yaml;
-use std::{env, io};
+
 use std::fs::File;
 use std::io::Write;
 use std::process::Command;
+use std::{env, io};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
     for (i, filename) in args.iter().skip(1).enumerate() {
-        println!("[{}/{}] Processing {}", i+1, args.len() - 1, filename);
+        println!("[{}/{}] Processing {}", i + 1, args.len() - 1, filename);
         process_file(filename.to_string());
     }
 }
@@ -41,7 +41,7 @@ fn process_file(filename: String) {
             }
         }
         pdf.push_str("\n\\end{document}\n");
-        let filename = format!("tex/{}_{}.tex", game.name, expansion.name).replace(" ", "_");
+        let filename = format!("tex/{}_{}.tex", game.name, expansion.name).replace(' ', "_");
         let mut output = File::create(filename.as_str()).expect("File could not be created");
         write!(output, "{}", pdf).expect("File could not be written to");
         println!(
@@ -56,7 +56,7 @@ fn process_file(filename: String) {
                 .arg("-c")
                 .arg(format!(
                     "pdflatex --output-dir=pdfs {}",
-                    filename.replace(" ", "-")
+                    filename.replace(' ', "-")
                 ))
                 .output()
                 .expect("Failed to compile pdf");
@@ -74,12 +74,11 @@ fn process_file(filename: String) {
 }
 
 fn escape_latex(s: &str) -> String {
-    return s
-        .replace("_", "\\_")
-        .replace("^", "\\^")
-        .replace("&", "\\&")
-        .replace("$", "\\$")
-        .replace("%", "\\%");
+    s.replace('_', "\\_")
+        .replace('^', "\\^")
+        .replace('&', "\\&")
+        .replace('$', "\\$")
+        .replace('%', "\\%")
 }
 
 #[derive(Debug, Serialize, Deserialize)]
