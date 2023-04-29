@@ -1,0 +1,253 @@
+name: AskHole
+version: 0.1.0
+instructions: "
+  As seen on www.askhole.io:
+
+  That's a nice social boundary you've got there. Would be a shame if
+  something... happened to it.
+
+  Filled with inappropriate, deeply controversial, philosophical, and
+  vulnerable inquiries, this deck of unusual questions will keep your night
+  full of nervous laughter and your relationships somewhat distressing.
+
+  This is no casual icebreaker deck — use with caution.
+
+  Askhole is available under a Creative Commons BY-NC-SA 2.0 license. This
+  means you can copy, redistribute, adapt, and build upon the game, but only if
+  you give us credit, don’t make money off of it, and make your own version
+  available under the same terms.
+
+  Licensed under the Creative Commons BY-NC-SA 2.0 license.
+
+
+  There are 3 suggested ways to play, although you can play any way you want:
+
+  The Askhole (for 3–6 people):
+  Appoint an Askhole. The Askhole draws the same number of cards as there are
+  people in the group (including the Askhole) and, after looking at them,
+  distributes them face down, one per person. One by one, everyone flips their
+  card and answers their question — Askhole included. Then choose a new Askhole
+  and repeat!
+
+  The Grid (for 2–10 people):
+  Place a 5x5 grid of cards face-down on a table, each column consisting of a
+  different color/category. Take turns drawing and answering one card at a
+  time, Jeopardy!-style, until none remain.
+
+  Social Mixer (for 10+ people):
+  Everyone draws one question. When you encounter someone, ask them your
+  question, and they ask you theirs. After you both answer, trade questions,
+  move along to a new partner, and repeat.
+  "
+num_players: 2+ people
+duration: At least 30 minutes
+authors: Aella and Hrothgar
+website: www.askhole.io
+expansions:
+  - base:
+    name: www.askhole.io
+    categories:
+      - questions:
+        name: Questions
+        items:
+          - In what ways are you inhibited from expressing love?
+          - What difficult or painful experience would you recommend to everyone?
+          - What's the most intense emotional pain you've ever experienced?
+          - In what ways don't you trust yourself?
+          - How have you disappointed your parents?
+          - What about yourself have you been trying to fix for a long time?
+          - How would you raise a child differently from how your parents raised you?
+          - What was the last thing you cried about? When was it?
+          - What was the most difficult thing you've ever had to do?
+          - In what ways do you tend to fail at communication?
+          - What is currently your greatest insecurity?
+          - Which of your habits conflicts with your values?
+          - What aspect about the person to your left gives you the strongest
+            negative feeling?
+          - What do you still owe someone an apology for?
+          - What's the most sick (mental or physical) you've ever been?
+          - Who do you hate most?
+          - What is your biggest obstacle toward peace?
+          - What about your appearance would you like to change?
+          - What have you done that you are most ashamed of?
+          - Are you afraid of death? Why or why not?
+          - How do you heal from painful experiences? How do you know when
+            you're done healing?
+          - What was your biggest financial mistake?
+          - What's the most intense physical pain you've ever experienced?
+          - How often and in what ways does fear show up in you?
+          - "Which have you planned in greater detail: killing yourself, or
+            killing someone else?"
+          - Who in this room would you most like to have sex with?
+          - If everyone in the room were arranged on a spectrum of
+            attractiveness, which two people would you be between?
+          - What problems do you see in the relationships of those around you?
+          - You have to marry someone in this room right now. Who is it?
+          - Is there anything which arouses you that you've never admitted to anybody?
+          - What unusual trait do you find most attractive in a romantic partner?
+          - Out of all your past sexual experiences, what has made you the most
+            uncomfortable?
+          - If you were invited to an all-nude party, where all the
+            participants are required to be naked the whole time, would you go?
+          - When you introspect, away from society and your physical body, deep
+            inside, do you feel a sense of gender?
+          - What were the conditions of your last break-up?
+          - If you had to choose one, would you rather double or halve your sex drive?
+          - Would you rather fuck your girlfriend who is inhabiting your
+            mother's body, or your mother who is inhabiting your girlfriend's
+            body? (If you date men, switch it to boyfriend and father.)
+          - In total, have you given or received more oral sex?
+          - What's one of the most adventurous things you've ever done in bed?
+          - Would you date yourself?
+          - What percentage of your preferred age/gender demographic would you
+            be down to have sex with after roughly an hour of flirting?
+          - Have you ever been in an open or polyamorous relationship? If not,
+            would you consider it?
+          - Could you have a serious relationship with someone who expressed
+            that they thought they were unworthy of the relationship?
+          - Have you ever dated someone who you felt was below your standards?
+          - How easy is it for you to orgasm?
+          - Do you ever feel guilt or shame for romantically rejecting people
+            who are interested in you?
+          - If you could press a button and double the sex drive of all women
+            on earth, would you do it?
+          - If you tried, could you list the names of everyone you've had sex
+            with?
+          - Are yelling fights in relationships more typical and inevitable, or
+            terrible and avoidable?
+          - What was your most disappointing sexual experience?
+          - What emotion/feeling are you currently suppressing or ignoring?
+          - Who in the room do you admire the most?
+          - Did your parents do a good job?
+          - What are the signs that someone understands you uniquely?
+          - What is the best advice you've received, and why did you need it?
+          - What are you waiting to hear from someone close to you?
+          - What do you most admire about the person to your right?
+          - At the gut level, do you feel that the world is safe or not safe?
+          - Would you rather increase the amount that people respect you, or
+            increase the amount they desire you?
+          - What relatively common experience have you never had?
+          - Do you ever enjoy the experience of emotional pain?
+          - Have you been loved enough?
+          - Have you ever had (what you consider to be) a spiritual experience?
+            If so, what was it like and what effects did it have on you?
+          - Do you feel a greater sense of satisfaction when you gain approval
+            from people who are very similar to you, or who are very different
+            from you?
+          - If you could have one but not the other, would you rather love
+            someone or be loved by someone?
+          - What kind of people do you get along best with?
+          - Which of your achievements are you most proud of?
+          - "Given the guarantee that nobody will ask you the question: What is
+            a question that you would refuse to answer?"
+          - How boring are you?
+          - Do you have more thoughts or more feelings?
+          - What are your coping mechanisms for stress?
+          - Would you rather double the amount of emotional pain and pleasure
+            you feel on a daily basis, or cut both in half?
+          - What is the most interesting fact about you that few people know?
+          - Which of your personality traits are you most proud of?
+          - "Which group is larger: people who trust you, or people you trust?"
+          - What is the most significant thing you've ever changed your mind
+            about?
+          - If you could ask everybody in the world one question, what would it
+            be? You don't get to hear their answers.
+          - Are some human lives worth more than others?
+          - You must pick a number right now and live that many years total, in
+            good physical health. You can't die before, and you can't extend
+            after. How many years do you choose to live?
+          - Do you consider the state of “unconditionally loving everyone” to
+            be desirable or undesirable for you, given it were possible?
+          - Are there any thoughts so offensive that you would advocate shaming
+            those who think them, even if they don't act on those thoughts?
+          - Which of your beliefs would be the most difficult to change, even
+            in the face of overwhelming evidence?
+          - Are there any cases in which you would support forced, involuntary
+            brain modification to change someone else's mind, urges, or
+            behaviour?
+          - You can make a designer baby. Would you rather optimize it
+            primarily for intelligence or happiness/optimism?
+          - What do you think enlightenment is?
+          - Do you believe the set of concepts like “duty”, “should”,
+            “obligation”, and “deserving” are ultimately more valid or
+            meaningless?
+          - If you could press a button that would make you feel deeply and
+            permanently that everything was ok, would you? Assume that you'd
+            remain functional in the world.
+          - Can someone both be a kind person and also hold the exact opposite
+            of your political views?
+          - If you could, would you wirehead (i.e. hook yourself up to a
+            hypothetical machine that makes you totally and eternally happy and
+            satisfied)?
+          - If you (and only you) could see one measurement or statistic over
+            everyone's heads, what would you want it to indicate?
+          - Would you prefer to date someone 20 IQ points higher or 5 IQ points
+            lower than you?
+          - "If you could press a button that would instantly erase every
+            single false belief you have, would you do it?"
+          - If you could ask the universe one question and get the truth, what
+            would you want to know?
+          - Is torture ever permissible?
+          - On planet A, everyone's 30% dumber, and you're a genius by
+            comparison. On planet B, everyone's 30% smarter, and you're an
+            idiot by comparison. You stay the same. Which planet would you
+            prefer to live on?
+          - Which technology should not have been invented?
+          - If you could magically cause a neutral nude photo of every human to
+            be published publicly on the internet every year on their birthday,
+            would you?
+          - Of all the beliefs you hold, which is most likely to be considered
+            barbaric in 150 years?
+          - You see a friend getting into their third emotionally abusive
+            relationship in a row. Are they a victim?
+          - Do you feel that you have conscious control over your beliefs?
+            Could you, right now, decide to believe something else if you
+            tried? If so, which beliefs?
+          - What's the most controversial opinion you hold among your own
+            social group?
+          - What viewpoint is the most difficult for you to empathize with?
+          - Does “no” always really mean “no”?
+          - If you had to fuck a cow, would you rather it be dead or alive?
+          - Do you have any political or social opinions that you're afraid to
+            express to your friends?
+          - In your personal experience, even if the difference is extremely
+            slight, are men or women better at handling suffering?
+          - In a world where different ethnicities had strong genetic
+            differences which caused different moral behavior, would racism be
+            okay or still not okay?
+          - What groups or communities are you most judged for being a member
+            of?
+          - In a world where prostitution is totally legal and regulated,
+            should sex workers be allowed to refuse clients on the basis of
+            race?
+          - Would you rather have accidentally killed someone, or be a
+            non-offending pedophile?
+          - Would you support the use of realistic child sex dolls by
+            pedophiles?
+          - Would you rather be raped or falsely (but convincingly) accused of
+            rape?
+          - Does modern western culture encourage women either to overreact or
+            underreact to “minor” sexual assaults, such as groping, too-drunk
+            sex, etc.?
+          - How do society's morals differ from your own?
+          - Regardless of your conscious beliefs or actions, do you feel in
+            your gut that sex work is degrading?
+          - Which stereotype is actually pretty accurate?
+          - If you had to eliminate one million people from one ethnicity,
+            which would it be?
+          - A 14-year-old has sex. How large does the age gap have to be
+            between the 14-year-old and their partner before the child can no
+            longer meaningfully consent to sex?
+          - If a sex worker consents to sex with a customer under expectation
+            of payment, but then the customer refuses to pay, is this closer to
+            rape or to theft?
+          - What's your opinion of education that teaches men to be more
+            seductive?
+          - Do women have any systemic privilege due to their gender?
+          - Is incest wrong? Should it be illegal?
+          - Are there any viewpoints so offensive that they deserve to be shut
+            down or suppressed? If so, which ones?
+          - Regardless of your support or personal feelings, does your
+            subconscious view trans-identifying people as closer to their birth
+            or current gender?
+          - Is bestiality wrong? Are you a vegan?
