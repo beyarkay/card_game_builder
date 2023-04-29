@@ -1,0 +1,63 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_vzn2dctxcxy33aoc733may244g
+% Encoding created by otftotfm on Tue Jul 28 10:01:07 2020
+% Command line follows encoding
+/AutoEnc_vzn2dctxcxy33aoc733may244g [
+%00
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%10
+  /dotlessi /dotlessj /grave /acute /caron /.notdef /.notdef /ring
+  /cedilla /germandbls /ae /oe /oslash /AE /OE /Oslash
+%20
+  /space /exclam /quotedblright /numbersign /dollar /percent /ampersand /quoteright
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%30
+  /zero /onesuperior /twosuperior /threesuperior /four /five /six /seven
+  /eight /nine /colon /semicolon /exclamdown /equal /questiondown /question
+%40
+  /at /A /B /C /D /E /F /G
+  /H /I /J /K /L /M /N /O
+%50
+  /P /Q /R /S /T /U /V /W
+  /X /Y /Z /bracketleft /quotedblleft /bracketright /circumflex /.notdef
+%60
+  /quoteleft /a /b /c /d /e /f /g
+  /h /i /j /k /l /m /n /o
+%70
+  /p /q /r /s /t /u /v /w
+  /x /y /z /endash /emdash /.notdef /tilde /dieresis
+%80
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%90
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%A0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%B0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%C0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%D0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%E0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%F0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_ot1
+% --tfm-directory=texmf/fonts/tfm/impallari/quattrocento
+% --vf-directory=texmf/fonts/vf/impallari/quattrocento
+% --truetype-directory=texmf/fonts/truetype/impallari/quattrocento
+% --encoding-directory=texmf/fonts/enc/dvips/quattrocento
+% --map-file=texmf/fonts/map/dvips/quattrocento/Quattro.map --no-updmap
+% --no-type1 --coding-scheme=TEX TEXT --feature=sups --ligkern=* {KL} *
+% Quattro-BoldItalic.ttf Quattro-BoldItalic-sup-ot1'
