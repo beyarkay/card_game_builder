@@ -96,6 +96,7 @@ fn escape_latex(s: &str) -> String {
         .replace('&', "\\&")
         .replace('$', "\\$")
         .replace('%', "\\%")
+        .replace('#', "\\#")
 }
 
 #[derive(Debug, Serialize, Deserialize)]
