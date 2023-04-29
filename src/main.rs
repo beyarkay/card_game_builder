@@ -24,8 +24,6 @@ fn process_file(filename: String) {
         println!("Writing expansion '{}'...", expansion.name);
         let mut pdf = format!(
             "\\documentclass[playing_cards, grid, fronts]{{flashcards}}\n\
-                              \\usepackage{{quattrocento}}
-                              \\usepackage[T1]{{fontenc}}
                               \\cardbackstyle{{empty}}\n\
                               \\cardfrontstyle[\\LARGE]{{headings}}\n\
                               \\begin{{document}}\n\
