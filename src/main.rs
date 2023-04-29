@@ -34,12 +34,22 @@ fn process_file(filename: String) {
         );
         for category in expansion.categories {
             for item in category.items {
+
+                let escaped = escape_latex(item.as_str());
+                let item = match item.len() {
+                    520.. => format!("\\small{{{}}}", escaped),
+                    360..=519 => format!("\\normalsize{{{}}}", escaped),
+                    220..=359 => format!("\\large{{{}}}", escaped),
+                    150..=219 => format!("\\Large{{{}}}", escaped),
+                    // The default size for the flashcards is `\LARGE{}`
+                    _ => escaped.to_string()
+                };
                 pdf.push_str(
                     format!(
                         "\t\\begin{{flashcard}}[{0} ({1})] {{{2}}} \\end{{flashcard}}\n",
                         escape_latex(game.name.as_str()),
                         escape_latex(category.name.as_str()),
-                        escape_latex(item.as_str())
+                        item
                     )
                     .as_str(),
                 );
