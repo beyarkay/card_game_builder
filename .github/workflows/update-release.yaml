@@ -32,7 +32,7 @@ jobs:
         key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
     - name: Install pdflatex
-      run: sudo apt-get install texlive-latex-base
+      run: apt-get install texlive-latex-base
       shell: sh
 
     - name: Setup tlmgr
