@@ -35,6 +35,10 @@ jobs:
       run: sudo apt-get install texlive-latex-base
       shell: sh
 
+    - name: Setup tlmgr
+      run: tlmgr init-usertree
+      shell: sh
+
     - name: Install tex packages
       run: sudo tlmgr install geometry xcolor
       shell: sh
