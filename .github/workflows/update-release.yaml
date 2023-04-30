@@ -40,7 +40,7 @@ jobs:
       shell: sh
 
     - name: Install tex packages
-      run: sudo tlmgr install geometry xcolor
+      run: tlmgr --usermode install geometry xcolor
       shell: sh
 
     - name: Cargo build
