@@ -32,27 +32,28 @@ jobs:
         key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
     - name: Install pdflatex
-      run: sudo apt-get install texlive-latex-recommended
-      shell: sh
-
-    - name: Setup tlmgr
-      run: sudo tlmgr init-usertree
-      shell: sh
-
-    - name: Update tlmgr
       run: |
-        export PATH=:$PATH/usr/local/texlive/2020/bin/x86_64-linux
-        export MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man
-        export INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info
-        curl -L https://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh > update-tlmgr-latest.sh
-        chmod +x update-tlmgr-latest.sh
-        ./update-tlmgr-latest.sh -- --update
+        sudo apt-get install texlive-latex-recommended texlive-latex-extra
       shell: sh
 
-    - name: Install tex packages
-      run: |
-        sudo tlmgr --usermode --verify-repo=none install geometry xcolor
-      shell: sh
+#     - name: Setup tlmgr
+#       run: sudo tlmgr init-usertree
+#       shell: sh
+
+#     - name: Update tlmgr
+#       run: |
+#         export PATH=:$PATH/usr/local/texlive/2020/bin/x86_64-linux
+#         export MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man
+#         export INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info
+#         curl -L https://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh > update-tlmgr-latest.sh
+#         chmod +x update-tlmgr-latest.sh
+#         ./update-tlmgr-latest.sh -- --update
+#       shell: sh
+
+#     - name: Install tex packages
+#       run: |
+#         sudo tlmgr --usermode --verify-repo=none install geometry xcolor
+#       shell: sh
 
     - name: Cargo build
       uses: actions-rs/cargo@v1
