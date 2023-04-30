@@ -43,7 +43,7 @@ jobs:
       run: |
         curl -L https://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh > update-tlmgr-latest.sh
         chmod +x update-tlmgr-latest.sh
-        ./update-tlmgr-latest.sh --update
+        ./update-tlmgr-latest.sh -- --update
       shell: sh
 
     - name: Install tex packages
