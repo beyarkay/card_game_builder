@@ -1,8 +1,6 @@
 name: AskHole
 version: 0.1.0
 instructions: "
-  As seen on www.askhole.io:
-
   That's a nice social boundary you've got there. Would be a shame if
   something... happened to it.
 
@@ -22,19 +20,22 @@ instructions: "
 
   There are 3 suggested ways to play, although you can play any way you want:
 
-  The Askhole (for 3–6 people):
+  # The Askhole (for 3–6 people):
+
   Appoint an Askhole. The Askhole draws the same number of cards as there are
   people in the group (including the Askhole) and, after looking at them,
   distributes them face down, one per person. One by one, everyone flips their
   card and answers their question — Askhole included. Then choose a new Askhole
   and repeat!
 
-  The Grid (for 2–10 people):
+  # The Grid (for 2–10 people):
+
   Place a 5x5 grid of cards face-down on a table, each column consisting of a
   different color/category. Take turns drawing and answering one card at a
   time, Jeopardy!-style, until none remain.
 
-  Social Mixer (for 10+ people):
+  # Social Mixer (for 10+ people):
+
   Everyone draws one question. When you encounter someone, ask them your
   question, and they ask you theirs. After you both answer, trade questions,
   move along to a new partner, and repeat.
