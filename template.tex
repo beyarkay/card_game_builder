@@ -1,0 +1,66 @@
+\documentclass[playing_cards, grid, fronts]{flashcards}
+\cardbackstyle{empty}
+\cardfrontstyle[\LARGE]{headings}
+\usepackage{geometry}
+\usepackage{xcolor}
+\renewcommand*\abstractname{Instructions}
+
+\begin{document}
+    \begin{titlepage}
+        \vspace*{2.5cm}
+        \begin{minipage}{0.425\linewidth}
+            \begin{flushright}
+                \Huge{{game_name}}
+            \end{flushright}
+        \end{minipage}
+        % Leave some space between the left minipage and the vertical bar
+        \hspace{15pt}
+        % Minipage for the vertical bar
+        \begin{minipage}{0.02\linewidth}
+            \rule{1pt}{75pt}
+        \end{minipage}
+        \hspace{5pt}
+        % begin right minipage
+        \begin{minipage}{0.40\linewidth}
+            \begin{flushleft}
+
+                \normalsize
+                Number of players: {num_players}
+
+                Duration: {duration}
+
+                Authors: {authors}
+
+                Website: {website}
+            \end{flushleft}
+        \end{minipage}
+
+        \vspace*{1.5cm}
+        \par
+        % begin left minipage
+        % Minipage for the instructions
+        \centering{
+            \begin{minipage}{0.5\linewidth}
+                {instructions}
+            \end{minipage}
+        }
+        % Add a footer to indicate where the card game came from
+        \par
+        \vspace*{\fill}
+        \centering{
+            \begin{minipage}{\linewidth}
+                \centering
+                This PDF was created by Boyd Kane's Card Game Builder on {date}.
+
+                You can use the Card Game Builder to create your own card
+
+                games (or to print out existing card games) by going to
+
+                \texttt{www.github.com/beyarkay/card\_game\_builder}
+            \end{minipage}
+        }
+        \vspace*{\fill}
+    \end{titlepage}
+    \cardfrontfoot{\color{lightgray}{{expansion_name}}}
+{flashcard_items}
+\end{document}
