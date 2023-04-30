@@ -35,6 +35,9 @@ jobs:
       run: sudo apt-get install texlive-latex-base
       shell: sh
 
+    - name: Install tex packages
+      run: sudo tlmgr install geometry xcolor
+      shell: sh
 
     - name: Cargo build
       uses: actions-rs/cargo@v1
