@@ -1,6 +1,6 @@
 name: Fear Pong
 version: 0.1.0
-instructions: 
+instructions:
 num_players: 4 or more
 duration: 30 minutes
 authors: ???
@@ -57,6 +57,7 @@ expansions:
           - You and a member of the opposing team have to stare at each other for 2 minutes, if you laugh you drink
           - Body shot off opponent
           - Take a shot
+          - Get a hickey
   - saucy:
     name: Saucy things
     categories:

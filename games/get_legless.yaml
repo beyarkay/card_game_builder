@@ -2,7 +2,7 @@ name: Get Legless
 version: 0.1.0
 instructions: Each player takes it in turn to pick a card... Every card
   contains a dare... The player can do the dare and give out the stated number
-  of drinks OR choose not to do the dare and have the stated number of drinks! 
+  of drinks OR choose not to do the dare and have the stated number of drinks!
 num_players: none
 duration: none
 authors: Legless Games
@@ -34,6 +34,7 @@ expansions:
           - Twerk for 30 seconds or drink one shot.
           - Whisper to the person on your left the kinkiest thing you'd do to the person on your right or drink one shot.
           - Point to the person in the room you want to have sex with the most or drink one shot.
+          - Get a hickey
       - two_shot:
         name: Do the dare or 2 shots
         items:
@@ -71,7 +72,7 @@ expansions:
           - Pretend to make out with someone you choose on camera or drink one shot.
           - Kiss the chests of the girls you think would be loudest and quietest in bed, or drink one shot.
           - Unzip the zipper of the person to your right slowly without breaking eye contact, or drink one shot.
-          - Do whatever a player of your choosing tells you to do for two rounds or drink one shot. 
+          - Do whatever a player of your choosing tells you to do for two rounds or drink one shot.
           - Choose a player to be your Daddy / Mommy. Every time they ask you something, you have to reply with Yes Mommy / Yes Daddy, or drink one shot.
           - Give a player you choose a hickey on the chest or drink one shot.
           - Give a player you choose a hickey on the shoulder or drink one shot.
