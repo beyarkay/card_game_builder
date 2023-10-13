@@ -1,0 +1,617 @@
+name: Cards Against Humanity
+version: 0.1.0
+instructions: The game is simple. Each round, one player asks a question from a black card, and everyone else answers with their funniest white card. https://cdn.sanity.io/files/vc07edlh/production/ddf02ce6c4a0bbebdb737abdf86c00e2795ee1b2.pdf
+num_players: 3-20+
+duration: 30-90 min
+authors: Josh Dillon, Daniel Dranove, Eli Halpern, Ben Hantoot, David Munk, David Pinsof, Max Temkin, Eliot Weinstein
+website: https://www.cardsagainsthumanity.com
+expansions:
+  - base:
+    name: UK Edition
+    categories:
+      - answers:
+        name: A
+        items:
+          - Having a stroke.
+          - Getting drugs off the street and into my body.
+          - Strong female characters.
+          - An M. Night Shyamalan plot twist.
+          - Doing crimes.
+          - Fear itself.
+          - Self-loathing.
+          - Sex with animals.
+          - Land mines.
+          - Fading away into nothingness.
+          - Pretending to care.
+          - Swooping.
+          - The Great Depression.
+          - My boss.
+          - Solving problems with violence.
+          - The Daily Mail.
+          - Gay conversion therapy.
+          - Explosions.
+          - A fart so powerful that it wakes the giants from their thousand-year slumber.
+          - Morgan Freeman's voice.
+          - James fucking Cordon.
+          - The guys from Queer Eye.
+          - Men.
+          - Science.
+          - Coat hanger abortions.
+          - Poor life choices.
+          - Old-people smell.
+          - A posh wank.
+          - My ugly face and bad personality.
+          - My relationship status.
+          - Catapults.
+          - Sniffing and kissing my feet.
+          - My inner demons.
+          - Pissing in my thirsty mouth.
+          - The Strictly Come Dancing final.
+          - Black people.
+          - Flesh-eating bacteria.
+          - What that mouth do.
+          - Mouth herpes.
+          - The Blood of Christ.
+          - Explaining how vaginas work.
+          - A general lack of purpose.
+          - Itchy pussy.
+          - How bad my daughter fucked up her dance recital.
+          - Becoming a blueberry.
+          - My genitals.
+          - Exactly what you'd expect.
+          - Brutal austerity.
+          - Elderly Japanese men.
+          - Jobs.
+          - Anal beads.
+          - Only dating Asian women.
+          - Stalin.
+          - Bogies.
+          - Pedophiles.
+          - Denying climate change.
+          - Horse meat.
+          - Daniel Radcliffe's delicious arsehole.
+          - Mad cow disease.
+          - Flat out not giving a shit.
+          - The prostate.
+          - A micropenis.
+          - Lumberjack fantasies.
+          - Announcing that I am about to cum.
+          - The American Dream.
+          - Pulling out.
+          - Fucking my sister.
+          - Fragile masculinity.
+          - 400 years of colonial atrocities.
+          - Burgers and pussy.
+          - Autocannibalism.
+          - Slaughtering innocent civilians.
+          - The Patriarchy.
+          - Battlefield amputations.
+          - Dick fingers.
+          - Oestrogen.
+          - The rhythms of Africa.
+          - The old guy who's almost dead.
+          - Getting cummed on.
+          - An Oedipus complex.
+          - Sperm whales.
+          - Opposable thumbs.
+          - Women in yoghurt adverts.
+          - Blowing up parliament.
+          - Slapping your knees to signal your imminent departure.
+          - Shiny objects.
+          - Soup that is too hot.
+          - Ecstasy.
+          - Preteens.
+          - Sitting on my face.
+          - Cuddling.
+          - The homosexual agenda.
+          - A good string gorilla.
+          - Memes.
+          - Committing suicide.
+          - Cheeky bum sex.
+          - Some guy.
+          - The glass ceiling.
+          - The past.
+          - LYNX® Body Spray.
+          - The only gay person in a hundred miles.
+          - The inevitable death of the universe.
+          - Used knickers.
+          - Dwayne "The Rock" Johnson.
+          - A pan gender octopus who roams the cosmos in search of love.
+          - A sea of troubles.
+          - A bit of slap and tickle.
+          - Waking up in Idris Elba's arms.
+          - Meth.
+          - Nicolas Cage.
+          - Hospice care.
+          - Faffing about.
+          - Your mum.
+          - Muhammad (Peace Be Upon Him).
+          - Yeast.
+          - Hot Cheese.
+          - Men discussing their feelings in an emotionally healthy way.
+          - A middle-aged man on roller skates.
+          - Licking the Queen.
+          - The violation of our most basic human rights.
+          - Poor people.
+          - Silence.
+          - Soft, kissy missionary sex.
+          - A time travel paradox.
+          - Three dicks at the same time.
+          - Giving 110%.
+          - Worshipping that pussy.
+          - Extremely tight trousers.
+          - Having sex for the first time.
+          - A bag of magic beans.
+          - A disappointing birthday party.
+          - The Holy Bible.
+          - My fat daughter.
+          - Chunks of dead hitchhiker.
+          - Hope.
+          - Penis envy.
+          - AIDS.
+          - Our dildo.
+          - Oompa-Loompas.
+          - Dead parents.
+          - Darth Vader.
+          - A really cool hat.
+          - My balls on your face.
+          - Fucking the weather man on live television.
+          - The female orgasm.
+          - The true meaning of Christmas.
+          - All the dudes I've fucked.
+          - Touching the pug right on the penis.
+          - Pictures of boobs.
+          - Incest.
+          - God.
+          - A comprehensive understanding of the Irish backstop.
+          - Danny Dyer.
+          - Being a motherfucking sorcerer.
+          - Wizard music.
+          - Her Majesty, Queen Elizabeth II.
+          - Martin Lewis, Money Saving Expert.
+          - Vladimir Putin.
+          - A Super Soaker™ full of cat pee.
+          - The pope.
+          - Jews, gypsies, and homosexuals.
+          - One trillion dollars.
+          - An older woman who knows her way around the penis.
+          - Your mum.
+          - Running out of semen.
+          - Casually suggesting a threesome.
+          - Alcoholism.
+          - Licking things to claim them as your own.
+          - Seppuku.
+          - Menstrual rage.
+          - Fellowship in Christ.
+          - Shutting up so I can watch the match.
+          - A man on the brink of orgasm.
+          - The smell of a Primark.
+          - Some bloody peace and quiet.
+          - The milkman.
+          - Wet dreams.
+          - Being able to talk to elephants.
+          - Puppies!
+          - Brexit.
+          - Not wearing trousers.
+          - Goblins.
+          - Maureen of Blackpool, Reader's Wife of the Year 1988.
+          - Getting crushed by a vending machine.
+          - Filling my briefcase with business stuff.
+          - My little boner.
+          - Emerging from the sea and rampaging through Tokyo.
+          - Radical Islamic terrorism.
+          - Smegma.
+          - However much weed £20 can buy.
+          - Niki Minaj.
+          - Child Beaty pageants.
+          - A stray pube.
+          - A Sober Irishman who doesn't care for potatoes.
+          - A much younger woman.
+          - A foetus.
+          - Discovering he's a Tory.
+          - Egging an MP.
+          - Inserting a Mason.jar into my anus.
+          - The bombing of Nagasaki.
+          - Viagra®.
+          - Harry Potter erotica.
+          - Gloryholes.
+          - David bowie flying in on a tiger made of lightning.
+          - Pooping back and forth. Forever.
+          - Somali pirates.
+          - Still being a virgin.
+          - Grabbing my man by his love handles and fucking his big arse.
+          - Getting fingered.
+          - Completely unwarranted confidence.
+          - Waiting till marriage.
+          - Hot people.
+          - 72 virgins.
+          - An erection that lasts longer than four hours.
+          - An unwanted pregnancy.
+          - Finger painting.
+          - Vigorous jazz hands.
+          - Vomiting seafood and bleeding anally. 
+          - Scousers.
+          - Arnold Schwarzenegger.
+          - The Big Bang.
+          - My sex life.
+          - My abusive boyfriend who really isn't so bad once you get to know him.
+          - Genuine human connection.
+          - Ainsley Harriott.
+          - Diversity.
+          - Bitches.
+          - Brown people.
+          - Sitting in a jar of vinegar all night because I am a gherkin.
+          - Foreskin.
+          - The penny whistle solo from "My Heart Will Go On."
+          - Establishing dominance.
+          - Being a woman.
+          - Ryanair.
+          - The Force.
+          - Cottaging.
+          - Friction.
+          - Flying sex snakes.
+          - Raptor attacks.
+          - Spaniards.
+          - 8 oz. of sweet Mexican black-tar heroin.
+          - A bitch slap.
+          - The petty troubles of the aristocracy.
+          - A gossamer stream of jizz that catches the light as it arcs through the morning air.
+          - Ghosts.
+          - A good sniff.
+          - A meat raffle!
+          - World peace.
+          - Lads.
+          - A white van man.
+          - Wanking into a pool of children's tears.
+          - Rectangles.
+          - Pixelated bukkake.
+          - My soul.
+          - Queuing.
+          - German dungeon porn.
+          - Seeing my father cry.
+          - A horde of Vikings.
+          - My cheating prick of a husband.
+          - Doing the right thing.
+          - A mopey zoo lion.
+          - A lifetime of sadness.
+          - Unfathomable stupidity.
+          - Object permanence.
+          - A salty surprise.
+          - The wifi password.
+          - An oversized lollipop.
+          - Free samples.
+          - Trench foot.
+          - A nice cup of tea.
+          - Penis breath.
+          - Being a witch.
+          - Geese.
+          - Flightless birds.
+          - A Fleshlight®.
+          - Heartwarming orphans.
+          - 10,000 Syrian refugees.
+          - Blood, sweat, and tears.
+          - Girls.
+          - A live studio audience.
+          - Some foundation, mascara, and a touch of blush.
+          - Therapy.
+          - Being rich.
+          - Chainsaws for hands.
+          - A slightly salty toad in the hole.
+          - Teaching a robot to love.
+          - Crippling debt.
+          - Looking in the mirror applying lipstick. And whispering "tonight, you will have sex with Tom Cruise."
+          - Being a dick to children.
+          - All my gentleman suitors.
+          - Throwing grapes at a man until he loses touch with reality.
+          - Queen Elizabeth's immaculate anus.
+          - Seeing what happens when you lock people in a room with hungry seagulls.
+          - A ball of earwax, semen, and toenail clippings.
+          - White people.
+          - Accepting the way things are.
+          - Auschwitz.
+          - Sex with Patrick Stewart.
+          - Mutually-assured destruction.
+          - Hobos.
+          - Barely making £15,000 a year.
+          - A micro pig wearing a tiny raincoat and booties.
+          - How far I can get my own penis up my butt.
+          - Getting naked and watching CBeebies.
+          - The placenta.
+          - A homoerotic volleyball montage.
+          - Executing a hostage every hour.
+          - A fuck-tonne of almonds.
+          - Being marginalised.
+          - Seeing Granny naked.
+          - A sorry excuse for a father.
+          - Knife crime.
+          - Hurting those closest to me.
+          - Permanent Orgasm-Face Disorder.
+          - A hen night in Slough.
+          - The Welsh.
+          - Dying.
+          - Daddy issues.
+          - Getting the same Boots Meal Deal every day for six years.
+          - More elephant cock than I bargained for.
+          - Crumbs all over the bloody carpet.
+          - Scottish independence.
+          - A tiny horse.
+          - Getting really high.
+          - Farting and walking away.
+          - White privilege.
+          - Having big dreams but no realistic way to achieve them.
+          - Balls.
+          - A bleached arsehole.
+          - Making a pouty face.
+          - Putting things where they go.
+          - Masturbating.
+          - A windmill full of corpses.
+          - Being on fire.
+          - Barak Obama.
+          - Dry heaving.
+          - Jimmy Savile.
+          - An endless storm of diarrhoea.
+          - Getting married, having a few kids, retiring to the south of France, and dying.
+          - Man meat.
+          - Drowning the kids in the bathtub.
+          - Spontaneous human combustion.
+          - A saxophone solo.
+          - Giving birth to the Antichrist.
+          - A fanny fart.
+          - Having anuses for eyes.
+          - German Chancellor Angela Merkel.
+          - A little boy who won't shut the fuck up about dinosaurs.
+          - Peeing a little bit.
+          - A snapping turtle biting the tip of your penis.
+          - A pyramid of severed heads.
+          - My good bra.
+          - Sideboob.
+          - A sad handjob.
+          - Not reciprocating for oral sex.
+          - Forced sterilisation.
+          - Lactation.
+          - Little boy penises.
+          - The screams... the terrible screams.
+          - Ethnic cleansing.
+          - Sniffing glue.
+          - Donald J. Trump.
+          - Dirty nappies.
+          - Eating a hard boiled egg out of my husbands arsehole.
+          - Expecting a burp and vomiting on the floor.
+          - Invading Poland.
+          - The Scouts.
+          - Puberty,
+          - Natural selection.
+          - Shitting out a perfect Cumberland sausage.
+          - The heart of a child.
+          - The unstoppable tide of Islam.
+          - Cunnilingus.
+          - My collection of Japanese sex toys.
+          - Holding down a child and farting all over him.
+          - Passive aggressive Post-it notes.
+          - The Jews.
+          - Braiding three penises into a Curly Wurly.
+          - Tories.
+          - Necrophilia.
+          - Madeleine McCann.
+          - Justin Bieber.
+          - Slapping Nigel Farage over and over.
+          - Police brutality.
+          - The bastard seagull who stole my chips.
+          - Famine.
+          - The arrival of the pizza.
+          - A crucifixion.
+          - 7 dead and 3 in critical condition.
+          - My über driver, Ajay.
+          - A bird that shits human turds.
+          - Powerful thighs.
+          - Spectacular abs.
+          - Sweet, sweet vengeance.
+          - Kissing nan on the forehead and turning off her life support.
+          - Dead birds everywhere.
+          - Tap dancing like there's no tomorrow.
+          - Blowing my boyfriend so hard he shits.
+          - Ghandi.
+          - Listening to her problems without trying to solve them.
+          - Your weird brother.
+          - Sunshine and rainbows.
+          - A Ginsters pasty and three cans of Monster Energy.
+          - A balanced breakfast.
+          - Grandma.
+          - Agriculture.
+          - RobotCop.
+          - The end of the days.
+          - A deep-rooted fear of the working class.
+          - A salad for men that's made of metal.
+          - Sexual tension.
+          - Not giving a shit about the Third World.
+          - Drinking alone.
+          - Spaghetti? Again?
+          - Dick pics.
+          - The miracle of childbirth.
+          - My ex-wife.
+          - Emotions.
+          - Fake tits.
+          - Boris Johnson.
+          - The illusion of choice in a late-stage capitalist society.
+          - Academy Award winner Meryl Streep.
+          - Dead babies.
+          - Drinking out of the toilet and eating rubbish.
+          - The North.
+          - Bees?
+          - Chemical weapons.
+          - Nazis.
+          - Kamikaze pilots.
+          - Me time.
+          - Huge biceps.
+          - Murder.
+          - Daddies® Brown Sauce.
+          - 50,000 volts straight to the nipples.
+          - A brain tumour.
+          - Selling crack to children.
+          - The cool, refreshing taste of Pepsi.
+          - Laying an egg.
+          - A bowl of mayonnaise and human teeth.
+          - The Black Death.
+          - Poverty.
+          - Italians.
+          - BATMAN!
+          - Inappropriate yodeling.
+          - Full frontal nudity.
+          - The way James Bond treats women.
+          - COVID-19.
+          - Explaining the difference between sex and gender.
+          - Firing a rifle into the air while balls deep in a squealing hog.
+          - Illegal immigrants.
+          - Polish people.
+          - Judging everyone.
+          - Breaking out into song and dance.
+          - Waking up Hal-naked in a Wetherspoons car park.
+          - A flacon with a cap on its head.
+          - My mate Dave.
+          - My neck, my back, my pussy, and my crack.
+          - Saying "I love you."
+          - Many bats.
+          - Pac-man uncontrollably guzzling cum.
+          - Throwing a virgin into a volcano.
+          - The KKK.
+          - Erectile dysfunction.
+          - The clitoris.
+          - Leprosy.
+          - Going an entire day without masturbating.
+          - The Russians.
+          - My bright pink fuckhole.
+          - The Devil himself.
+          - PTSD.
+          - Multiple stab wounds.
+          - Bubble butt bottom boys.
+          - An AK-47 assault rifle.
+          - Repression.
+          - England.
+          - The magic of live theatre.
+          - Tentacle porn.
+          - An octopus giving 7 handjobs and smoking a cigarette.
+          - A vindaloo poo.
+          - Telling a shitty story that goes nowhere.
+          - Seething with quiet resentment.
+          - Danny DeVito.
+          - Magnets.
+          - Kourtney, Kim, Khloe, Kendall, and Kylie.
+          - Pooping in a laptop and closing it.
+          - Dogging.
+          - One titty hanging out.
+          - Serfdom.
+          - Bananas.
+          - Teenage pregnancy.
+          - Being fucking stupid.
+          - The French.
+          - Racism.
+          - Nipple blades.
+          - My vagina.
+          - Women's suffrage.
+          - The gays.
+          - Dark and mysterious forces beyond our control.
+          - Consensual sex.
+          - Cards Against Humanity.
+      - questions:
+        name: Q
+        items:
+          - It's a pity that kids these days are all getting involved with _.
+          - The TFL apologises for the delay in the train service due to _.
+          - ★☆☆☆☆ DO NOT go here! Found _ in my spaghetti bolognese!
+          - Nobody expects the Spanish Inquisition. Our chief weapons are fear, surprise, and _.
+          - _ + _ = _.
+          - Military historians remember Alexander the Great for his brilliant use of _ against the Persians.
+          - What are my parents hiding from me?
+          - "Coming to the West End this year, _: The Musical."
+          - Life for American Indians was forever changed when the White Man introduced them to _.
+          - What's a girl's best friend?
+          - Fun tip! When your man asks you to go down on him, try surprising him with _ instead.
+          - What is Batman's guilty pleasure?
+          - When Pharaoh remained unmoved, Moses called down a Plague of _.
+          - Airport security guidelines now prohibit _ on airplanes.
+          - "_: Once you pop, the fun don't stop!"
+          - _. That's why mums go to Iceland.
+          - That's right, I killed _. How, you ask? _.
+          - What's my secret power?
+          - Daddy, why is mummy crying?
+          - They said we were crazy. They said we couldn't put _ inside of _. They were wrong.
+          - How did I lose my virginity?
+          - White people like _.
+          - Here is the church. Here is the steeple. Open the doors, And there is _.
+          - _? Jim'll fix it!
+          - Her Reddit! I'm _. Ask me anything.
+          - "Next from j.K. Rowling: Harry Potter and the Chamber of _."
+          - What made my first kiss so awkward?
+          - Uh, hey guys, I know this was my idea, but I'm having serious doubts about _.
+          - Why do I hurt all over?
+          - In a world ravaged by _, our only solace is _.
+          - I get by with a little help from _.
+          - "Next up on Channel 4: Ramsay's _ Nightmares."
+          - When I am Prime Minister of the United Kingdom, I will create the Ministry of _.
+          - Dear Agony Aunt, I'm having some trouble with _ and I need your advice.
+          - Maybe she's born with it. Maybe it's _.
+          - As the mum of five rambunctious boys, I'm no stranger to _.
+          - Why is Alan so sweaty?
+          - "UKIP: Putting _ First!"
+          - What will always get you laid?
+          - What ended my last relationship?
+          - Just once, I'd like to hear you say "Thanks Mum. Thanks for _."
+          - What's there a ton of in heaven?
+          - _ is a slippery slope that leads to _.
+          - When I am a billionaire, I shall erect a 50-foot statue to commemorate _.
+          - Introducing the amazing superhero/sidekick duo! It's _ and _!
+          - I got 99 problems but _ ain't one.
+          - Why am I sticky?
+          - In Belmarsh Prison, word is you can trade 200 cigarettes for _.
+          - "Just saw this upsetting video! Please retweet!! #stop_"
+          - "Step 1: _. Step 2: _. Step 3: Profit."
+          - Alternative medicine is now embracing the curative powers of _.
+          - What makes life worth living?
+          - What's the next Happy Meal® toy?
+          - Hey guys, welcome to TGI Fridays! Would you like to start the night off right with _?
+          - What's George W. Bush thinking about right now?
+          - "_: Kid-tested, mother approved."
+          - _. It's a trap!
+          - If you can't be with the one you love, love _.
+          - The theme for the next year's Eurovision Song Contest is "We are _."
+          - A romantic candlelit dinner would be incomplete without _.
+          - When I was tripping on acid, _ turned into _.
+          - "Now at the Natural History Museum: an interactive exhibit on _."
+          - 'Today on the Jeremy Kyle Show: "Help! My son is _!"'
+          - During sex, I like to think about _.
+          - Channel 4 presents _, the story of _.
+          - I never truly understood _ until I encountered _.
+          - What would grandma find disturbing, yet oddly charming?
+          - What's that sound?
+          - How am I maintaining my relationship status?
+          - I'm no doctor, but I'm pretty sure what you're suffering from is called "_."
+          - What never fails to liven up the party?
+          - War! What is it good for?
+          - This is the way the world ends. This is the way the world ends. Not with a bang but with _.
+          - The school trip was completely ruined by _.
+          - Instead of coal, Father Christmas now gives bad children _.
+          - Why can't I sleep at night?
+          - Well if you'll excuse me, gentlemen, I have a date with _.
+          - Netflix's new reality show features twelve hot singles living with _.
+          - What gives me uncontrollable gas?
+          - I'm sorry, Sir, but I couldn't complete my homework because of _.
+          - This season at the Old Vic, Samuel Beckett's classic existential play, Waiting for _.
+          - _. That was so mental.
+          - And the BAFTA for _ goes to _.
+          - For my next trick, I will pull _ out of _.
+          - Mr. and Mrs. Diaz, we called you in because we're concerned about Cynthia. Are you aware that your daughter is _?
+          - I drink to forget _.
+          - "Next on Sky Sports: The World Championship of _."
+          - But before I kill you, Mr. Bond, I must show you _.
+          - Check me out, yo! I call this dance move "_."
+          - Old MacDonald had _. E-I-E-I-O.
+          - Make a haiku.
+          - What's that smell?
+          - Kids, I don't need drugs to get high. I'm high on _.
+          - What did I bring back from Amsterdam?
+          - A recent laboratory study shows that undergraduates have 50% less sex after being exposed to _.
+          - "After four platinum albums and three Grammys, it's time to get back to my roots, to what inspired me to make music in the first place: _."
+          - Mate, do not go in that bathroom. There's _ in there.
+          - 50% of all marriages end in _.
+          - I'm going on a cleanse this week. Nothing but kale juice and _.
+          - Click Here For _!!!
