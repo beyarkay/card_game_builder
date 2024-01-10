@@ -278,6 +278,8 @@ Features, bug fixes, and improvements are also welcome!
 - (Spy Fall)[https://boardgamegeek.com/boardgame/166384/spyfall]
 - Check out the games available
   (here)[https://spyfall.tannerkrewson.com/more-games]
+- (Shit Happens)[https://www.amazon.com/Goliath-Games-76525-Shit-Happens/dp/B01LO9N2CS]
+- (Poetry for Neanderthals)[https://www.explodingkittens.com/products/poetry-for-neanderthals]
 
 ## Future code ideas
 
